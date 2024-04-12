@@ -1,0 +1,193 @@
+------------------------------------------11-04-2024 12:00:53------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------11-04-2024 12:00:54------------------------------------------
+BL Event ==>  EventMethod  =>  ExceptionFailed to convert parameter value from a String to a Boolean.   at System.Data.SqlClient.SqlParameter.CoerceValue(Object value, MetaType destinationType, Boolean& coercedToDataFeed, Boolean& typeChanged, Boolean allowStreaming)
+   at System.Data.SqlClient.SqlParameter.GetCoercedValue()
+   at System.Data.SqlClient.SqlParameter.Validate(Int32 index, Boolean isCommandProc)
+   at System.Data.SqlClient.SqlCommand.SetUpRPCParameters(_SqlRPC rpc, Int32 startCount, Boolean inSchema, SqlParameterCollection parameters)
+   at System.Data.SqlClient.SqlCommand.BuildRPC(Boolean inSchema, SqlParameterCollection parameters, _SqlRPC& rpc)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at LIBRARY.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters) in E:\Amit Pipaliya\Intern\Task\week 10\Event Management\LIBRARY\SqlHelper.cs:line 577
+   at LIBRARY.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) in E:\Amit Pipaliya\Intern\Task\week 10\Event Management\LIBRARY\SqlHelper.cs:line 489
+   at LIBRARY.SqlHelper.ExecuteDataset(String connectionString, String spName, Object[] parameterValues) in E:\Amit Pipaliya\Intern\Task\week 10\Event Management\LIBRARY\SqlHelper.cs:line 523
+   at BL.Event.EventMethod(EventModel objEntity) in E:\Amit Pipaliya\Intern\Task\week 10\Event Management\BL\Event.cs:line 39
+------------------------------------------11-04-2024 12:02:21------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------11-04-2024 12:03:15------------------------------------------
+BL Event ==>  EventMethod  =>  ExceptionFailed to convert parameter value from a String to a Boolean.   at System.Data.SqlClient.SqlParameter.CoerceValue(Object value, MetaType destinationType, Boolean& coercedToDataFeed, Boolean& typeChanged, Boolean allowStreaming)
+   at System.Data.SqlClient.SqlParameter.GetCoercedValue()
+   at System.Data.SqlClient.SqlParameter.Validate(Int32 index, Boolean isCommandProc)
+   at System.Data.SqlClient.SqlCommand.SetUpRPCParameters(_SqlRPC rpc, Int32 startCount, Boolean inSchema, SqlParameterCollection parameters)
+   at System.Data.SqlClient.SqlCommand.BuildRPC(Boolean inSchema, SqlParameterCollection parameters, _SqlRPC& rpc)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at LIBRARY.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters) in E:\Amit Pipaliya\Intern\Task\week 10\Event Management\LIBRARY\SqlHelper.cs:line 577
+   at LIBRARY.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) in E:\Amit Pipaliya\Intern\Task\week 10\Event Management\LIBRARY\SqlHelper.cs:line 489
+   at LIBRARY.SqlHelper.ExecuteDataset(String connectionString, String spName, Object[] parameterValues) in E:\Amit Pipaliya\Intern\Task\week 10\Event Management\LIBRARY\SqlHelper.cs:line 523
+   at BL.Event.EventMethod(EventModel objEntity)
+------------------------------------------11-04-2024 12:03:24------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------11-04-2024 12:03:25------------------------------------------
+BL Event ==>  EventMethod  =>  ExceptionFailed to convert parameter value from a String to a Boolean.   at System.Data.SqlClient.SqlParameter.CoerceValue(Object value, MetaType destinationType, Boolean& coercedToDataFeed, Boolean& typeChanged, Boolean allowStreaming)
+   at System.Data.SqlClient.SqlParameter.GetCoercedValue()
+   at System.Data.SqlClient.SqlParameter.Validate(Int32 index, Boolean isCommandProc)
+   at System.Data.SqlClient.SqlCommand.SetUpRPCParameters(_SqlRPC rpc, Int32 startCount, Boolean inSchema, SqlParameterCollection parameters)
+   at System.Data.SqlClient.SqlCommand.BuildRPC(Boolean inSchema, SqlParameterCollection parameters, _SqlRPC& rpc)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at LIBRARY.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters) in E:\Amit Pipaliya\Intern\Task\week 10\Event Management\LIBRARY\SqlHelper.cs:line 577
+   at LIBRARY.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) in E:\Amit Pipaliya\Intern\Task\week 10\Event Management\LIBRARY\SqlHelper.cs:line 489
+   at LIBRARY.SqlHelper.ExecuteDataset(String connectionString, String spName, Object[] parameterValues) in E:\Amit Pipaliya\Intern\Task\week 10\Event Management\LIBRARY\SqlHelper.cs:line 523
+   at BL.Event.EventMethod(EventModel objEntity)
+------------------------------------------11-04-2024 12:03:36------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------11-04-2024 12:05:35------------------------------------------
+BL Event ==>  EventMethod  =>  ExceptionFailed to convert parameter value from a String to a Boolean.   at System.Data.SqlClient.SqlParameter.CoerceValue(Object value, MetaType destinationType, Boolean& coercedToDataFeed, Boolean& typeChanged, Boolean allowStreaming)
+   at System.Data.SqlClient.SqlParameter.GetCoercedValue()
+   at System.Data.SqlClient.SqlParameter.Validate(Int32 index, Boolean isCommandProc)
+   at System.Data.SqlClient.SqlCommand.SetUpRPCParameters(_SqlRPC rpc, Int32 startCount, Boolean inSchema, SqlParameterCollection parameters)
+   at System.Data.SqlClient.SqlCommand.BuildRPC(Boolean inSchema, SqlParameterCollection parameters, _SqlRPC& rpc)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at LIBRARY.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters) in E:\Amit Pipaliya\Intern\Task\week 10\Event Management\LIBRARY\SqlHelper.cs:line 577
+   at LIBRARY.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) in E:\Amit Pipaliya\Intern\Task\week 10\Event Management\LIBRARY\SqlHelper.cs:line 489
+   at LIBRARY.SqlHelper.ExecuteDataset(String connectionString, String spName, Object[] parameterValues) in E:\Amit Pipaliya\Intern\Task\week 10\Event Management\LIBRARY\SqlHelper.cs:line 523
+   at BL.Event.EventMethod(EventModel objEntity)
+------------------------------------------11-04-2024 12:05:43------------------------------------------
+UserController => CreateUser Method not found: 'Int32 MODEL.EventModel.get_IsActive()'.   at BL.Event.EventMethod(EventModel objEntity)
+   at Event_Management.Controllers.EventController.AddEvent(EventModel EventOBJ) in E:\Amit Pipaliya\Intern\Task\week 10\Event Management\Event Management\Controllers\EventController.cs:line 23
+------------------------------------------11-04-2024 12:06:31------------------------------------------
+UserController => CreateUser Method not found: 'Int32 MODEL.EventModel.get_IsActive()'.   at BL.Event.EventMethod(EventModel objEntity)
+   at Event_Management.Controllers.EventController.AddEvent(EventModel EventOBJ)
+------------------------------------------11-04-2024 12:08:07------------------------------------------
+UserController => CreateUser Method not found: 'Int32 MODEL.EventModel.get_IsActive()'.   at BL.Event.EventMethod(EventModel objEntity)
+   at Event_Management.Controllers.EventController.AddEvent(EventModel EventOBJ)
+------------------------------------------11-04-2024 12:08:10------------------------------------------
+UserController => CreateUser Method not found: 'Int32 MODEL.EventModel.get_IsActive()'.   at BL.Event.EventMethod(EventModel objEntity)
+   at Event_Management.Controllers.EventController.AddEvent(EventModel EventOBJ)
+------------------------------------------11-04-2024 12:09:07------------------------------------------
+UserController => CreateUser Method not found: 'Int32 MODEL.EventModel.get_IsActive()'.   at BL.Event.EventMethod(EventModel objEntity)
+   at Event_Management.Controllers.EventController.AddEvent(EventModel EventOBJ)
+------------------------------------------11-04-2024 12:10:41------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------11-04-2024 12:11:50------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------11-04-2024 12:12:04------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------11-04-2024 12:18:13------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------11-04-2024 12:18:20------------------------------------------
+BL Event ==>  EventMethod  =>  ExceptionParameter count does not match Parameter Value count.   at LIBRARY.SqlHelper.AssignParameterValues(SqlParameter[] commandParameters, Object[] parameterValues) in E:\Amit Pipaliya\Intern\Task\week 10\Event Management\LIBRARY\SqlHelper.cs:line 98
+   at LIBRARY.SqlHelper.ExecuteDataset(String connectionString, String spName, Object[] parameterValues) in E:\Amit Pipaliya\Intern\Task\week 10\Event Management\LIBRARY\SqlHelper.cs:line 520
+   at BL.Event.EventMethod(EventModel objEntity)
+------------------------------------------11-04-2024 12:19:53------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------11-04-2024 14:57:47------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------11-04-2024 14:57:48------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------11-04-2024 14:57:48------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------11-04-2024 14:57:50------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------11-04-2024 14:57:50------------------------------------------
+System.IO.IOException: The process cannot access the file 'E:\Amit Pipaliya\Intern\Task\week 10\Event Management\Event Management\ErrorLog\ErrorLog_11-04-2024.txt' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append)
+   at LIBRARY.InsertLog.WriteErrrorLog(String exception) in E:\Amit Pipaliya\Intern\Task\week 10\Event Management\LIBRARY\InsertLog.cs:line 28==   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append)
+   at LIBRARY.InsertLog.WriteErrrorLog(String exception) in E:\Amit Pipaliya\Intern\Task\week 10\Event Management\LIBRARY\InsertLog.cs:line 28
+------------------------------------------11-04-2024 14:57:50------------------------------------------
+System.IO.IOException: The process cannot access the file 'E:\Amit Pipaliya\Intern\Task\week 10\Event Management\Event Management\ErrorLog\ErrorLog_11-04-2024.txt' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append)
+   at LIBRARY.InsertLog.WriteErrrorLog(String exception) in E:\Amit Pipaliya\Intern\Task\week 10\Event Management\LIBRARY\InsertLog.cs:line 28==   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append)
+   at LIBRARY.InsertLog.WriteErrrorLog(String exception) in E:\Amit Pipaliya\Intern\Task\week 10\Event Management\LIBRARY\InsertLog.cs:line 28
+------------------------------------------11-04-2024 14:59:39------------------------------------------
+Admin Login BL  ==>  Admin Login  ==>  Started
+------------------------------------------11-04-2024 16:06:34------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------11-04-2024 16:44:28------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------11-04-2024 18:30:34------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------11-04-2024 18:30:50------------------------------------------
+BL Event ==>  EventMethod  =>  ExceptionObject reference not set to an instance of an object.   at BL.Event.EventMethod(EventModel objEntity) in E:\Amit Pipaliya\Intern\Task\week 10\Event Management\BL\Event.cs:line 28
+------------------------------------------11-04-2024 18:32:37------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------11-04-2024 18:32:57------------------------------------------
+BL Event ==>  EventMethod  =>  ExceptionObject reference not set to an instance of an object.   at BL.Event.EventMethod(EventModel objEntity) in E:\Amit Pipaliya\Intern\Task\week 10\Event Management\BL\Event.cs:line 28
+------------------------------------------11-04-2024 18:46:03------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------11-04-2024 18:52:14------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------11-04-2024 18:55:22------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------11-04-2024 18:58:52------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------11-04-2024 19:02:41------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------11-04-2024 19:02:56------------------------------------------
+UserController => CreateUser Object reference not set to an instance of an object.   at BL.Event.EventMethod(EventModel objEntity) in E:\Amit Pipaliya\Intern\Task\week 10\Event Management\BL\Event.cs:line 26
+   at Event_Management.Controllers.EventController.AddEvent(EventModel EventOBJ) in E:\Amit Pipaliya\Intern\Task\week 10\Event Management\Event Management\Controllers\EventController.cs:line 23
+------------------------------------------11-04-2024 19:02:58------------------------------------------
+UserController => CreateUser The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding characters, or an illegal character among the padding characters.    at System.Convert.FromBase64_Decode(Char* startInputPtr, Int32 inputLength, Byte* startDestPtr, Int32 destLength)
+   at System.Convert.FromBase64CharPtr(Char* inputPtr, Int32 inputLength)
+   at System.Convert.FromBase64String(String s)
+   at BL.Event.EventMethod(EventModel objEntity) in E:\Amit Pipaliya\Intern\Task\week 10\Event Management\BL\Event.cs:line 26
+   at Event_Management.Controllers.EventController.AddEvent(EventModel EventOBJ) in E:\Amit Pipaliya\Intern\Task\week 10\Event Management\Event Management\Controllers\EventController.cs:line 23
+------------------------------------------11-04-2024 19:03:16------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------11-04-2024 19:03:18------------------------------------------
+UserController => CreateUser Object reference not set to an instance of an object.   at BL.Event.EventMethod(EventModel objEntity) in E:\Amit Pipaliya\Intern\Task\week 10\Event Management\BL\Event.cs:line 26
+   at Event_Management.Controllers.EventController.AddEvent(EventModel EventOBJ) in E:\Amit Pipaliya\Intern\Task\week 10\Event Management\Event Management\Controllers\EventController.cs:line 23
+------------------------------------------11-04-2024 19:04:05------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------11-04-2024 19:05:02------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
