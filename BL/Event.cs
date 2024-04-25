@@ -1,19 +1,20 @@
 ﻿using LIBRARY;
 using MODEL;
 using System;
-using System.Collections.Generic;
-using System.Data.SqlClient;
 using System.Data;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Data.SqlClient;
 using System.IO;
 
 namespace BL
 {
     public class Event
     {
-        //---------------------- Add EVENT METHOD ---------------------------
+
+        /// <summary>
+        /// Name : Amit Pipaliya
+        /// Date : 18-04-24
+        /// This Method Use for --> Add New Event --> Show Event --> Show Publish Event ---> Publish Event 
+        /// </summary>
         public SerializeResponse<EventModel> EventMethod(EventModel objEntity)
         {
             InsertLog.WriteErrrorLog("BL Event ==>  EventMethod  ==>  Started");
@@ -22,6 +23,9 @@ namespace BL
 
             DataSet ds = new DataSet();
             SqlDataProvider objSDP = new SqlDataProvider();
+
+
+            //convert base64 string into image and save into storage and return path
 
             string path = AppDomain.CurrentDomain.BaseDirectory + "image\\img_" + DateTime.Now.ToString().Replace(':', '-') + ".jpg";
             if (objEntity.Image != null)
@@ -45,10 +49,10 @@ namespace BL
                 }
                 catch (Exception ex)
                 {
-
+                    InsertLog.WriteErrrorLog("StringConvert => imgToString => Exception" + ex.Message + ex.StackTrace);
                 }
             }
-             string query = "SP_Event";
+            string query = "SP_Event";
             try
             {
                 string Con_str = Connection.ConnectionString();
@@ -60,7 +64,7 @@ namespace BL
                 SqlParameter prm6 = objSDP.CreateInitializedParameter("@Image", DbType.String, objEntity.Image);
                 SqlParameter prm7 = objSDP.CreateInitializedParameter("@FLAG", DbType.String, objEntity.FLAG);
 
-                SqlParameter[] Sqlpara = { prm1, prm2, prm3, prm4, prm5, prm6, prm7};
+                SqlParameter[] Sqlpara = { prm1, prm2, prm3, prm4, prm5, prm6, prm7 };
 
                 ds = SqlHelper.ExecuteDataset(Con_str, query, Sqlpara);
                 if (objEntity.FLAG == "AddEvent" && ds?.Tables.Count > 0 && ds.Tables[0].Rows.Count > 0)
@@ -69,9 +73,47 @@ namespace BL
                     objResponsemessage.ID = Convert.ToInt32(ds.Tables[0].Rows[0]["ID"]);
                     objResponsemessage.Message = Convert.ToString(ds.Tables[0].Rows[0]["MESSAGE"]);
                 }
-                else if (objEntity.FLAG == "ShowEvent" && ds?.Tables.Count > 0 && ds.Tables[0].Rows.Count > 0)
+                else if (objEntity.FLAG == "ShowPublishEvent" && ds?.Tables.Count > 0 && ds.Tables[0].Rows.Count > 0)
                 {
                     objResponsemessage.ArrayOfResponse = bl.ListConvertDataTable<EventModel>(ds.Tables[0]);
+                    foreach (var item in objResponsemessage.ArrayOfResponse)
+                    {
+                        string base64ImageRepresentation = null;
+                        try
+                        {
+                            // create byte array
+                            byte[] imageArray = System.IO.File.ReadAllBytes(item.Image);
+                            // convert byte array into base64 string
+                            base64ImageRepresentation = Convert.ToBase64String(imageArray);
+                            item.Image = base64ImageRepresentation;
+                        }
+                        catch (Exception ex)
+                        {
+                            InsertLog.WriteErrrorLog("StringConvert => StringToImage => Exception" + ex.Message + ex.StackTrace);
+                        }
+                    }
+                }
+                else if (objEntity.FLAG == "ShowEvent" && ds?.Tables.Count > 0 && ds.Tables[0].Rows.Count > 0)
+                {
+
+                    // Convert path into base64 string 
+                    objResponsemessage.ArrayOfResponse = bl.ListConvertDataTable<EventModel>(ds.Tables[0]);
+                    foreach (var item in objResponsemessage.ArrayOfResponse)
+                    {
+                        string base64ImageRepresentation = null;
+                        try
+                        {
+                            // create byte array
+                            byte[] imageArray = System.IO.File.ReadAllBytes(item.Image);
+                            // convert byte array into base64 string
+                            base64ImageRepresentation = Convert.ToBase64String(imageArray);
+                            item.Image = base64ImageRepresentation;
+                        }
+                        catch (Exception ex)
+                        {
+                            InsertLog.WriteErrrorLog("StringConvert => StringToImage => Exception" + ex.Message + ex.StackTrace);
+                        }
+                    }
                 }
                 if (objEntity.FLAG == "PublishEvent" && ds?.Tables.Count > 0 && ds.Tables[0].Rows.Count > 0)
                 {
@@ -80,7 +122,8 @@ namespace BL
                 }
                 else if (ds?.Tables.Count > 0 && ds.Tables[0].Rows.Count == 0)
                 {
-                    objResponsemessage.Message = "400|No Data Found";
+                    objResponsemessage.Message = "No Data Found";
+                    objResponsemessage.ID = 400;
                 }
             }
             catch (Exception ex)

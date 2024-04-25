@@ -1,32 +1,41 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net;
-using System.Net.Http;
-using System.Web.Http;
+﻿using BL;
 using LIBRARY;
 using MODEL;
-using BL;
+using System;
+using System.Net.Http;
+using System.Net;
+using System.Web.Http;
 
 namespace Event_Management.Controllers
 {
     public class UserController : ApiController
     {
-        //---------------------- USER REGISTRATION AND LOGIN API ----------------------
+        // This API Use for --> User Registration  --> User Login   
         [HttpPost]
         [Route("api/User/CreateUser")]
-        public SerializeResponse<UserModel> CreateUser([FromBody] UserModel userobj)
+        public HttpResponseMessage CreateUser(UserModel UserObj)
         {
+            InsertLog.WriteErrrorLog("User Controller ==> Create User ==> Started");
+            SerializeResponse<UserModel> Objres = new SerializeResponse<UserModel>();
             try
             {
-                User user = new User();
-                return user.UserMethod(userobj);
+                if (UserObj != null)
+                {
+                    User newuser = new User();
+                    Objres = newuser.UserMethod(UserObj);
+                }
+                else
+                {
+                    Objres.Message = "Entity Can't Be Null";
+                    Objres.ID = 400;
+                }
             }
             catch (Exception ex)
             {
-                InsertLog.WriteErrrorLog("UserController => CreateUser " + ex.Message + ex.StackTrace);
+                InsertLog.WriteErrrorLog("User Controller ==> Create User ==> End " + ex.Message + ex.StackTrace);
                 throw;
             }
+            return Request.CreateResponse(HttpStatusCode.OK, Objres);
         }
     }
 }

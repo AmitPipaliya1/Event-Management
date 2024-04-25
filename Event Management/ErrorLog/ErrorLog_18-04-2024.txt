@@ -1,0 +1,1105 @@
+------------------------------------------18-04-2024 10:53:28------------------------------------------
+Admin Login BL  ==>  Admin Login  ==>  Started
+------------------------------------------18-04-2024 10:53:48------------------------------------------
+Admin Login BL  ==>  Admin Login  ==>  Started
+------------------------------------------18-04-2024 10:53:50------------------------------------------
+Admin Login BL  ==>  Admin Login  ==>  Started
+------------------------------------------18-04-2024 10:53:50------------------------------------------
+Admin Login BL  ==>  Admin Login  ==>  Started
+------------------------------------------18-04-2024 10:53:50------------------------------------------
+Admin Login BL  ==>  Admin Login  ==>  Started
+------------------------------------------18-04-2024 10:53:55------------------------------------------
+Admin Login BL  ==>  Admin Login  ==>  Started
+------------------------------------------18-04-2024 10:53:56------------------------------------------
+Admin Login BL  ==>  Admin Login  ==>  Started
+------------------------------------------18-04-2024 10:54:00------------------------------------------
+Admin Login BL  ==>  Admin Login  ==>  Started
+------------------------------------------18-04-2024 10:54:14------------------------------------------
+Admin Login BL  ==>  Admin Login  ==>  Started
+------------------------------------------18-04-2024 10:54:44------------------------------------------
+Admin Login BL  ==>  Admin Login  ==>  Started
+------------------------------------------18-04-2024 10:55:18------------------------------------------
+Admin Login BL  ==>  Admin Login  ==>  Started
+------------------------------------------18-04-2024 10:55:23------------------------------------------
+Admin Login BL  ==>  Admin Login  ==>  Started
+------------------------------------------18-04-2024 10:55:24------------------------------------------
+Admin Login BL  ==>  Admin Login  ==>  Started
+------------------------------------------18-04-2024 10:55:24------------------------------------------
+Admin Login BL  ==>  Admin Login  ==>  Started
+------------------------------------------18-04-2024 10:55:32------------------------------------------
+Admin Login BL  ==>  Admin Login  ==>  Started
+------------------------------------------18-04-2024 11:59:07------------------------------------------
+Admin Login BL  ==>  Admin Login  ==>  Started
+------------------------------------------18-04-2024 11:59:18------------------------------------------
+Admin Login BL  ==>  Admin Login  ==>  Started
+------------------------------------------18-04-2024 11:59:23------------------------------------------
+Admin Login BL  ==>  Admin Login  ==>  Started
+------------------------------------------18-04-2024 11:59:36------------------------------------------
+Admin Login BL  ==>  Admin Login  ==>  Started
+------------------------------------------18-04-2024 11:59:46------------------------------------------
+Admin Login BL  ==>  Admin Login  ==>  Started
+------------------------------------------18-04-2024 12:00:00------------------------------------------
+Admin Login BL  ==>  Admin Login  ==>  Started
+------------------------------------------18-04-2024 12:35:14------------------------------------------
+Admin Login BL  ==>  Admin Login  ==>  Started
+------------------------------------------18-04-2024 12:38:36------------------------------------------
+Admin Login BL  ==>  Admin Login  ==>  Started
+------------------------------------------18-04-2024 13:24:38------------------------------------------
+Admin Login BL  ==>  Admin Login  ==>  Started
+------------------------------------------18-04-2024 13:24:55------------------------------------------
+Admin Login BL  ==>  Admin Login  ==>  Started
+------------------------------------------18-04-2024 13:25:23------------------------------------------
+Admin Login BL  ==>  Admin Login  ==>  Started
+------------------------------------------18-04-2024 13:26:41------------------------------------------
+Admin Login BL  ==>  Admin Login  ==>  Started
+------------------------------------------18-04-2024 13:26:54------------------------------------------
+Admin Login BL  ==>  Admin Login  ==>  Started
+------------------------------------------18-04-2024 13:27:07------------------------------------------
+Admin Login BL  ==>  Admin Login  ==>  Started
+------------------------------------------18-04-2024 13:27:13------------------------------------------
+Admin Login BL  ==>  Admin Login  ==>  Started
+------------------------------------------18-04-2024 13:27:14------------------------------------------
+Admin Login BL  ==>  Admin Login  ==>  Started
+------------------------------------------18-04-2024 13:27:15------------------------------------------
+Admin Login BL  ==>  Admin Login  ==>  Started
+------------------------------------------18-04-2024 13:27:15------------------------------------------
+Admin Login BL  ==>  Admin Login  ==>  Started
+------------------------------------------18-04-2024 13:27:15------------------------------------------
+Admin Login BL  ==>  Admin Login  ==>  Started
+------------------------------------------18-04-2024 13:27:17------------------------------------------
+Admin Login BL  ==>  Admin Login  ==>  Started
+------------------------------------------18-04-2024 13:27:18------------------------------------------
+Admin Login BL  ==>  Admin Login  ==>  Started
+------------------------------------------18-04-2024 13:27:52------------------------------------------
+Admin Login BL  ==>  Admin Login  ==>  Started
+------------------------------------------18-04-2024 13:28:09------------------------------------------
+Admin Login BL  ==>  Admin Login  ==>  Started
+------------------------------------------18-04-2024 14:16:39------------------------------------------
+User Controller ==> Create User ==> Started
+------------------------------------------18-04-2024 14:16:39------------------------------------------
+InsertUserBL  ==>  UserCreation  ==>  Started
+------------------------------------------18-04-2024 14:16:51------------------------------------------
+User Controller ==> Create User ==> Started
+------------------------------------------18-04-2024 14:16:51------------------------------------------
+InsertUserBL  ==>  UserCreation  ==>  Started
+------------------------------------------18-04-2024 14:16:56------------------------------------------
+User Controller ==> Create User ==> Started
+------------------------------------------18-04-2024 14:16:56------------------------------------------
+InsertUserBL  ==>  UserCreation  ==>  Started
+------------------------------------------18-04-2024 14:17:05------------------------------------------
+User Controller ==> Create User ==> Started
+------------------------------------------18-04-2024 14:17:05------------------------------------------
+InsertUserBL  ==>  UserCreation  ==>  Started
+------------------------------------------18-04-2024 14:17:23------------------------------------------
+User Controller ==> Create User ==> Started
+------------------------------------------18-04-2024 14:17:23------------------------------------------
+InsertUserBL  ==>  UserCreation  ==>  Started
+------------------------------------------18-04-2024 14:17:47------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------18-04-2024 14:17:47------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------18-04-2024 14:18:01------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------18-04-2024 14:18:01------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------18-04-2024 14:18:01------------------------------------------
+Activity Controller => AddActivity ==> Started
+------------------------------------------18-04-2024 14:18:01------------------------------------------
+BL Activity ==>  ActivityMethod  ==>  Started
+------------------------------------------18-04-2024 14:18:01------------------------------------------
+BL Event ==>  EventMethod  =>  ExceptionFailed to convert parameter value from a String to a DateTime.   at System.Data.SqlClient.SqlParameter.CoerceValue(Object value, MetaType destinationType, Boolean& coercedToDataFeed, Boolean& typeChanged, Boolean allowStreaming)
+   at System.Data.SqlClient.SqlParameter.GetCoercedValue()
+   at System.Data.SqlClient.SqlParameter.Validate(Int32 index, Boolean isCommandProc)
+   at System.Data.SqlClient.SqlCommand.SetUpRPCParameters(_SqlRPC rpc, Int32 startCount, Boolean inSchema, SqlParameterCollection parameters)
+   at System.Data.SqlClient.SqlCommand.BuildRPC(Boolean inSchema, SqlParameterCollection parameters, _SqlRPC& rpc)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at LIBRARY.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters) in E:\Amit Pipaliya\Intern\Task\week 10\Event Management\LIBRARY\SqlHelper.cs:line 577
+   at LIBRARY.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) in E:\Amit Pipaliya\Intern\Task\week 10\Event Management\LIBRARY\SqlHelper.cs:line 489
+   at LIBRARY.SqlHelper.ExecuteDataset(String connectionString, String spName, Object[] parameterValues) in E:\Amit Pipaliya\Intern\Task\week 10\Event Management\LIBRARY\SqlHelper.cs:line 523
+   at BL.Activity.ActivityMethod(ActivityModel ActivityEntity) in E:\Amit Pipaliya\Intern\Task\week 10\Event Management\BL\Activity.cs:line 34
+------------------------------------------18-04-2024 14:18:12------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------18-04-2024 14:18:12------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------18-04-2024 14:18:28------------------------------------------
+Admin Login BL  ==>  Admin Login  ==>  Started
+------------------------------------------18-04-2024 14:18:39------------------------------------------
+Admin Login BL  ==>  Admin Login  ==>  Started
+------------------------------------------18-04-2024 14:18:40------------------------------------------
+Admin Login BL  ==>  Admin Login  ==>  Started
+------------------------------------------18-04-2024 14:18:40------------------------------------------
+Admin Login BL  ==>  Admin Login  ==>  Started
+------------------------------------------18-04-2024 14:18:40------------------------------------------
+Admin Login BL  ==>  Admin Login  ==>  Started
+------------------------------------------18-04-2024 14:18:48------------------------------------------
+Admin Login BL  ==>  Admin Login  ==>  Started
+------------------------------------------18-04-2024 14:18:56------------------------------------------
+Admin Login BL  ==>  Admin Login  ==>  Started
+------------------------------------------18-04-2024 14:18:57------------------------------------------
+Admin Login BL  ==>  Admin Login  ==>  Started
+------------------------------------------18-04-2024 14:18:57------------------------------------------
+Admin Login BL  ==>  Admin Login  ==>  Started
+------------------------------------------18-04-2024 14:21:53------------------------------------------
+Admin Login BL  ==>  Admin Login  ==>  Started
+------------------------------------------18-04-2024 14:22:08------------------------------------------
+Admin Login BL  ==>  Admin Login  ==>  Started
+------------------------------------------18-04-2024 14:22:10------------------------------------------
+Admin Login BL  ==>  Admin Login  ==>  Started
+------------------------------------------18-04-2024 14:22:10------------------------------------------
+Admin Login BL  ==>  Admin Login  ==>  Started
+------------------------------------------18-04-2024 14:22:10------------------------------------------
+Admin Login BL  ==>  Admin Login  ==>  Started
+------------------------------------------18-04-2024 14:22:11------------------------------------------
+Admin Login BL  ==>  Admin Login  ==>  Started
+------------------------------------------18-04-2024 14:22:11------------------------------------------
+Admin Login BL  ==>  Admin Login  ==>  Started
+------------------------------------------18-04-2024 14:22:11------------------------------------------
+Admin Login BL  ==>  Admin Login  ==>  Started
+------------------------------------------18-04-2024 14:22:13------------------------------------------
+Admin Login BL  ==>  Admin Login  ==>  Started
+------------------------------------------18-04-2024 14:22:13------------------------------------------
+Admin Login BL  ==>  Admin Login  ==>  Started
+------------------------------------------18-04-2024 14:22:13------------------------------------------
+Admin Login BL  ==>  Admin Login  ==>  Started
+------------------------------------------18-04-2024 14:22:13------------------------------------------
+Admin Login BL  ==>  Admin Login  ==>  Started
+------------------------------------------18-04-2024 14:22:14------------------------------------------
+Admin Login BL  ==>  Admin Login  ==>  Started
+------------------------------------------18-04-2024 14:24:20------------------------------------------
+Admin Login BL  ==>  Admin Login  ==>  Started
+------------------------------------------18-04-2024 14:30:31------------------------------------------
+User Controller ==> Create User ==> Started
+------------------------------------------18-04-2024 14:30:31------------------------------------------
+InsertUserBL  ==>  UserCreation  ==>  Started
+------------------------------------------18-04-2024 14:30:57------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------18-04-2024 14:30:57------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------18-04-2024 14:32:16------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------18-04-2024 14:32:16------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------18-04-2024 14:32:45------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------18-04-2024 14:32:45------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------18-04-2024 14:33:52------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------18-04-2024 14:33:52------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------18-04-2024 14:33:59------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------18-04-2024 14:33:59------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------18-04-2024 14:34:16------------------------------------------
+User Controller ==> Create User ==> Started
+------------------------------------------18-04-2024 14:34:16------------------------------------------
+InsertUserBL  ==>  UserCreation  ==>  Started
+------------------------------------------18-04-2024 14:35:58------------------------------------------
+User Controller ==> Create User ==> Started
+------------------------------------------18-04-2024 14:35:58------------------------------------------
+InsertUserBL  ==>  UserCreation  ==>  Started
+------------------------------------------18-04-2024 14:37:36------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------18-04-2024 14:37:36------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------18-04-2024 14:38:00------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------18-04-2024 14:38:00------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------18-04-2024 14:38:23------------------------------------------
+User Controller ==> Create User ==> Started
+------------------------------------------18-04-2024 14:38:23------------------------------------------
+InsertUserBL  ==>  UserCreation  ==>  Started
+------------------------------------------18-04-2024 14:42:02------------------------------------------
+Admin Login BL  ==>  Admin Login  ==>  Started
+------------------------------------------18-04-2024 14:42:28------------------------------------------
+Admin Login BL  ==>  Admin Login  ==>  Started
+------------------------------------------18-04-2024 14:42:42------------------------------------------
+Admin Login BL  ==>  Admin Login  ==>  Started
+------------------------------------------18-04-2024 14:44:57------------------------------------------
+Admin Login BL  ==>  Admin Login  ==>  Started
+------------------------------------------18-04-2024 14:45:21------------------------------------------
+User Controller ==> Create User ==> Started
+------------------------------------------18-04-2024 14:45:21------------------------------------------
+InsertUserBL  ==>  UserCreation  ==>  Started
+------------------------------------------18-04-2024 14:45:21------------------------------------------
+Activity Controller => AddActivity ==> Started
+------------------------------------------18-04-2024 14:45:21------------------------------------------
+BL Activity ==>  ActivityMethod  ==>  Started
+------------------------------------------18-04-2024 14:45:21------------------------------------------
+BL Event ==>  EventMethod  =>  ExceptionFailed to convert parameter value from a String to a DateTime.   at System.Data.SqlClient.SqlParameter.CoerceValue(Object value, MetaType destinationType, Boolean& coercedToDataFeed, Boolean& typeChanged, Boolean allowStreaming)
+   at System.Data.SqlClient.SqlParameter.GetCoercedValue()
+   at System.Data.SqlClient.SqlParameter.Validate(Int32 index, Boolean isCommandProc)
+   at System.Data.SqlClient.SqlCommand.SetUpRPCParameters(_SqlRPC rpc, Int32 startCount, Boolean inSchema, SqlParameterCollection parameters)
+   at System.Data.SqlClient.SqlCommand.BuildRPC(Boolean inSchema, SqlParameterCollection parameters, _SqlRPC& rpc)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at LIBRARY.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters) in E:\Amit Pipaliya\Intern\Task\week 10\Event Management\LIBRARY\SqlHelper.cs:line 577
+   at LIBRARY.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) in E:\Amit Pipaliya\Intern\Task\week 10\Event Management\LIBRARY\SqlHelper.cs:line 489
+   at LIBRARY.SqlHelper.ExecuteDataset(String connectionString, String spName, Object[] parameterValues) in E:\Amit Pipaliya\Intern\Task\week 10\Event Management\LIBRARY\SqlHelper.cs:line 523
+   at BL.Activity.ActivityMethod(ActivityModel ActivityEntity) in E:\Amit Pipaliya\Intern\Task\week 10\Event Management\BL\Activity.cs:line 34
+------------------------------------------18-04-2024 14:45:21------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------18-04-2024 14:45:21------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------18-04-2024 14:45:34------------------------------------------
+Activity Controller => AddActivity ==> Started
+------------------------------------------18-04-2024 14:45:34------------------------------------------
+BL Activity ==>  ActivityMethod  ==>  Started
+------------------------------------------18-04-2024 14:45:34------------------------------------------
+BL Event ==>  EventMethod  =>  ExceptionFailed to convert parameter value from a String to a DateTime.   at System.Data.SqlClient.SqlParameter.CoerceValue(Object value, MetaType destinationType, Boolean& coercedToDataFeed, Boolean& typeChanged, Boolean allowStreaming)
+   at System.Data.SqlClient.SqlParameter.GetCoercedValue()
+   at System.Data.SqlClient.SqlParameter.Validate(Int32 index, Boolean isCommandProc)
+   at System.Data.SqlClient.SqlCommand.SetUpRPCParameters(_SqlRPC rpc, Int32 startCount, Boolean inSchema, SqlParameterCollection parameters)
+   at System.Data.SqlClient.SqlCommand.BuildRPC(Boolean inSchema, SqlParameterCollection parameters, _SqlRPC& rpc)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at LIBRARY.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters) in E:\Amit Pipaliya\Intern\Task\week 10\Event Management\LIBRARY\SqlHelper.cs:line 577
+   at LIBRARY.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) in E:\Amit Pipaliya\Intern\Task\week 10\Event Management\LIBRARY\SqlHelper.cs:line 489
+   at LIBRARY.SqlHelper.ExecuteDataset(String connectionString, String spName, Object[] parameterValues) in E:\Amit Pipaliya\Intern\Task\week 10\Event Management\LIBRARY\SqlHelper.cs:line 523
+   at BL.Activity.ActivityMethod(ActivityModel ActivityEntity) in E:\Amit Pipaliya\Intern\Task\week 10\Event Management\BL\Activity.cs:line 34
+------------------------------------------18-04-2024 14:45:34------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------18-04-2024 14:45:34------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------18-04-2024 14:46:10------------------------------------------
+User Controller ==> Create User ==> Started
+------------------------------------------18-04-2024 14:46:10------------------------------------------
+InsertUserBL  ==>  UserCreation  ==>  Started
+------------------------------------------18-04-2024 14:46:10------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------18-04-2024 14:46:10------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------18-04-2024 14:46:14------------------------------------------
+Activity Controller => AddActivity ==> Started
+------------------------------------------18-04-2024 14:46:14------------------------------------------
+BL Activity ==>  ActivityMethod  ==>  Started
+------------------------------------------18-04-2024 14:46:14------------------------------------------
+BL Event ==>  EventMethod  =>  ExceptionFailed to convert parameter value from a String to a DateTime.   at System.Data.SqlClient.SqlParameter.CoerceValue(Object value, MetaType destinationType, Boolean& coercedToDataFeed, Boolean& typeChanged, Boolean allowStreaming)
+   at System.Data.SqlClient.SqlParameter.GetCoercedValue()
+   at System.Data.SqlClient.SqlParameter.Validate(Int32 index, Boolean isCommandProc)
+   at System.Data.SqlClient.SqlCommand.SetUpRPCParameters(_SqlRPC rpc, Int32 startCount, Boolean inSchema, SqlParameterCollection parameters)
+   at System.Data.SqlClient.SqlCommand.BuildRPC(Boolean inSchema, SqlParameterCollection parameters, _SqlRPC& rpc)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at LIBRARY.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters) in E:\Amit Pipaliya\Intern\Task\week 10\Event Management\LIBRARY\SqlHelper.cs:line 577
+   at LIBRARY.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) in E:\Amit Pipaliya\Intern\Task\week 10\Event Management\LIBRARY\SqlHelper.cs:line 489
+   at LIBRARY.SqlHelper.ExecuteDataset(String connectionString, String spName, Object[] parameterValues) in E:\Amit Pipaliya\Intern\Task\week 10\Event Management\LIBRARY\SqlHelper.cs:line 523
+   at BL.Activity.ActivityMethod(ActivityModel ActivityEntity) in E:\Amit Pipaliya\Intern\Task\week 10\Event Management\BL\Activity.cs:line 34
+------------------------------------------18-04-2024 14:46:14------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------18-04-2024 14:46:14------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------18-04-2024 14:46:15------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------18-04-2024 14:46:15------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------18-04-2024 14:46:17------------------------------------------
+Activity Controller => AddActivity ==> Started
+------------------------------------------18-04-2024 14:46:17------------------------------------------
+BL Activity ==>  ActivityMethod  ==>  Started
+------------------------------------------18-04-2024 14:46:17------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------18-04-2024 14:46:17------------------------------------------
+BL Event ==>  EventMethod  =>  ExceptionFailed to convert parameter value from a String to a DateTime.   at System.Data.SqlClient.SqlParameter.CoerceValue(Object value, MetaType destinationType, Boolean& coercedToDataFeed, Boolean& typeChanged, Boolean allowStreaming)
+   at System.Data.SqlClient.SqlParameter.GetCoercedValue()
+   at System.Data.SqlClient.SqlParameter.Validate(Int32 index, Boolean isCommandProc)
+   at System.Data.SqlClient.SqlCommand.SetUpRPCParameters(_SqlRPC rpc, Int32 startCount, Boolean inSchema, SqlParameterCollection parameters)
+   at System.Data.SqlClient.SqlCommand.BuildRPC(Boolean inSchema, SqlParameterCollection parameters, _SqlRPC& rpc)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at LIBRARY.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters) in E:\Amit Pipaliya\Intern\Task\week 10\Event Management\LIBRARY\SqlHelper.cs:line 577
+   at LIBRARY.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) in E:\Amit Pipaliya\Intern\Task\week 10\Event Management\LIBRARY\SqlHelper.cs:line 489
+   at LIBRARY.SqlHelper.ExecuteDataset(String connectionString, String spName, Object[] parameterValues) in E:\Amit Pipaliya\Intern\Task\week 10\Event Management\LIBRARY\SqlHelper.cs:line 523
+   at BL.Activity.ActivityMethod(ActivityModel ActivityEntity) in E:\Amit Pipaliya\Intern\Task\week 10\Event Management\BL\Activity.cs:line 34
+------------------------------------------18-04-2024 14:46:17------------------------------------------
+System.IO.IOException: The process cannot access the file 'E:\Amit Pipaliya\Intern\Task\week 10\Event Management\Event Management\ErrorLog\ErrorLog_18-04-2024.txt' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append)
+   at LIBRARY.InsertLog.WriteErrrorLog(String exception) in E:\Amit Pipaliya\Intern\Task\week 10\Event Management\LIBRARY\InsertLog.cs:line 25==   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append)
+   at LIBRARY.InsertLog.WriteErrrorLog(String exception) in E:\Amit Pipaliya\Intern\Task\week 10\Event Management\LIBRARY\InsertLog.cs:line 25
+------------------------------------------18-04-2024 14:46:18------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------18-04-2024 14:46:18------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------18-04-2024 14:46:19------------------------------------------
+Activity Controller => AddActivity ==> Started
+------------------------------------------18-04-2024 14:46:19------------------------------------------
+BL Activity ==>  ActivityMethod  ==>  Started
+------------------------------------------18-04-2024 14:46:19------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------18-04-2024 14:46:19------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------18-04-2024 14:46:19------------------------------------------
+System.IO.IOException: The process cannot access the file 'E:\Amit Pipaliya\Intern\Task\week 10\Event Management\Event Management\ErrorLog\ErrorLog_18-04-2024.txt' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append)
+   at LIBRARY.InsertLog.WriteErrrorLog(String exception) in E:\Amit Pipaliya\Intern\Task\week 10\Event Management\LIBRARY\InsertLog.cs:line 25==   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append)
+   at LIBRARY.InsertLog.WriteErrrorLog(String exception) in E:\Amit Pipaliya\Intern\Task\week 10\Event Management\LIBRARY\InsertLog.cs:line 25
+------------------------------------------18-04-2024 14:46:20------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------18-04-2024 14:46:20------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------18-04-2024 14:47:37------------------------------------------
+User Controller ==> Create User ==> Started
+------------------------------------------18-04-2024 14:47:37------------------------------------------
+InsertUserBL  ==>  UserCreation  ==>  Started
+------------------------------------------18-04-2024 14:47:37------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------18-04-2024 14:47:37------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------18-04-2024 14:48:23------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------18-04-2024 14:48:23------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------18-04-2024 14:48:26------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------18-04-2024 14:48:26------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------18-04-2024 14:48:52------------------------------------------
+Admin Login BL  ==>  Admin Login  ==>  Started
+------------------------------------------18-04-2024 14:48:58------------------------------------------
+Admin Login BL  ==>  Admin Login  ==>  Started
+------------------------------------------18-04-2024 14:50:52------------------------------------------
+Admin Login BL  ==>  Admin Login  ==>  Started
+------------------------------------------18-04-2024 14:52:58------------------------------------------
+Admin Login BL  ==>  Admin Login  ==>  Started
+------------------------------------------18-04-2024 14:52:58------------------------------------------
+Admin Login BL  ==>  Admin Login  ==>  Started
+------------------------------------------18-04-2024 14:54:57------------------------------------------
+Admin Login BL  ==>  Admin Login  ==>  Started
+------------------------------------------18-04-2024 14:57:07------------------------------------------
+Admin Login BL  ==>  Admin Login  ==>  Started
+------------------------------------------18-04-2024 15:00:01------------------------------------------
+Admin Login BL  ==>  Admin Login  ==>  Started
+------------------------------------------18-04-2024 15:00:19------------------------------------------
+Admin Login BL  ==>  Admin Login  ==>  Started
+------------------------------------------18-04-2024 15:00:24------------------------------------------
+Admin Login BL  ==>  Admin Login  ==>  Started
+------------------------------------------18-04-2024 15:00:24------------------------------------------
+Admin Login BL  ==>  Admin Login  ==>  Started
+------------------------------------------18-04-2024 15:31:42------------------------------------------
+Admin Login BL  ==>  Admin Login  ==>  Started
+------------------------------------------18-04-2024 15:33:59------------------------------------------
+Admin Login BL  ==>  Admin Login  ==>  Started
+------------------------------------------18-04-2024 15:40:50------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------18-04-2024 15:40:50------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------18-04-2024 15:40:53------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------18-04-2024 15:40:53------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------18-04-2024 15:43:42------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------18-04-2024 15:43:42------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------18-04-2024 15:43:44------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------18-04-2024 15:43:44------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------18-04-2024 15:45:25------------------------------------------
+Activity Controller => AddActivity ==> Started
+------------------------------------------18-04-2024 15:45:25------------------------------------------
+BL Activity ==>  ActivityMethod  ==>  Started
+------------------------------------------18-04-2024 15:45:25------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------18-04-2024 15:45:25------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------18-04-2024 15:45:26------------------------------------------
+Activity Controller => AddActivity ==> Started
+------------------------------------------18-04-2024 15:45:26------------------------------------------
+BL Activity ==>  ActivityMethod  ==>  Started
+------------------------------------------18-04-2024 15:45:27------------------------------------------
+Activity Controller => AddActivity ==> Started
+------------------------------------------18-04-2024 15:45:27------------------------------------------
+BL Activity ==>  ActivityMethod  ==>  Started
+------------------------------------------18-04-2024 15:46:10------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------18-04-2024 15:46:10------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------18-04-2024 15:46:56------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------18-04-2024 15:46:56------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------18-04-2024 15:47:12------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------18-04-2024 15:47:12------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------18-04-2024 15:47:28------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------18-04-2024 15:47:28------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------18-04-2024 15:47:31------------------------------------------
+Activity Controller => AddActivity ==> Started
+------------------------------------------18-04-2024 15:47:31------------------------------------------
+BL Activity ==>  ActivityMethod  ==>  Started
+------------------------------------------18-04-2024 15:47:32------------------------------------------
+Activity Controller => AddActivity ==> Started
+------------------------------------------18-04-2024 15:47:32------------------------------------------
+BL Activity ==>  ActivityMethod  ==>  Started
+------------------------------------------18-04-2024 15:47:37------------------------------------------
+Activity Controller => AddActivity ==> Started
+------------------------------------------18-04-2024 15:47:37------------------------------------------
+BL Activity ==>  ActivityMethod  ==>  Started
+------------------------------------------18-04-2024 15:47:37------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------18-04-2024 15:47:37------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------18-04-2024 15:47:40------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------18-04-2024 15:47:40------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------18-04-2024 15:48:03------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------18-04-2024 15:48:03------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------18-04-2024 15:48:33------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------18-04-2024 15:48:33------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------18-04-2024 15:49:26------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------18-04-2024 15:49:26------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------18-04-2024 15:49:28------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------18-04-2024 15:49:28------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------18-04-2024 15:49:34------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------18-04-2024 15:49:34------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------18-04-2024 15:49:36------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------18-04-2024 15:49:36------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------18-04-2024 15:49:54------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------18-04-2024 15:49:54------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------18-04-2024 15:49:56------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------18-04-2024 15:49:56------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------18-04-2024 15:50:35------------------------------------------
+Admin Login BL  ==>  Admin Login  ==>  Started
+------------------------------------------18-04-2024 15:51:01------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------18-04-2024 15:51:01------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------18-04-2024 15:51:01------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------18-04-2024 15:51:01------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------18-04-2024 15:51:22------------------------------------------
+Activity Controller => AddActivity ==> Started
+------------------------------------------18-04-2024 15:51:22------------------------------------------
+BL Activity ==>  ActivityMethod  ==>  Started
+------------------------------------------18-04-2024 15:51:22------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------18-04-2024 15:51:22------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------18-04-2024 15:51:24------------------------------------------
+Activity Controller => AddActivity ==> Started
+------------------------------------------18-04-2024 15:51:24------------------------------------------
+BL Activity ==>  ActivityMethod  ==>  Started
+------------------------------------------18-04-2024 15:51:25------------------------------------------
+Activity Controller => AddActivity ==> Started
+------------------------------------------18-04-2024 15:51:25------------------------------------------
+BL Activity ==>  ActivityMethod  ==>  Started
+------------------------------------------18-04-2024 15:53:10------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------18-04-2024 15:53:10------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------18-04-2024 15:53:14------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------18-04-2024 15:53:14------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------18-04-2024 15:53:24------------------------------------------
+Activity Controller => AddActivity ==> Started
+------------------------------------------18-04-2024 15:53:24------------------------------------------
+BL Activity ==>  ActivityMethod  ==>  Started
+------------------------------------------18-04-2024 15:53:25------------------------------------------
+Activity Controller => AddActivity ==> Started
+------------------------------------------18-04-2024 15:53:25------------------------------------------
+BL Activity ==>  ActivityMethod  ==>  Started
+------------------------------------------18-04-2024 15:53:47------------------------------------------
+Activity Controller => AddActivity ==> Started
+------------------------------------------18-04-2024 15:53:47------------------------------------------
+BL Activity ==>  ActivityMethod  ==>  Started
+------------------------------------------18-04-2024 15:53:48------------------------------------------
+Activity Controller => AddActivity ==> Started
+------------------------------------------18-04-2024 15:53:48------------------------------------------
+BL Activity ==>  ActivityMethod  ==>  Started
+------------------------------------------18-04-2024 15:53:55------------------------------------------
+Activity Controller => AddActivity ==> Started
+------------------------------------------18-04-2024 15:53:55------------------------------------------
+BL Activity ==>  ActivityMethod  ==>  Started
+------------------------------------------18-04-2024 15:53:55------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------18-04-2024 15:53:55------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------18-04-2024 15:54:17------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------18-04-2024 15:54:17------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------18-04-2024 15:54:20------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------18-04-2024 15:54:20------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------18-04-2024 15:54:24------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------18-04-2024 15:54:24------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------18-04-2024 15:54:27------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------18-04-2024 15:54:27------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------18-04-2024 15:54:30------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------18-04-2024 15:54:30------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------18-04-2024 15:54:32------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------18-04-2024 15:54:32------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------18-04-2024 15:54:34------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------18-04-2024 15:54:34------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------18-04-2024 15:54:46------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------18-04-2024 15:54:46------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------18-04-2024 15:54:52------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------18-04-2024 15:54:52------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------18-04-2024 15:55:06------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------18-04-2024 15:55:06------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------18-04-2024 15:55:40------------------------------------------
+User Controller ==> Create User ==> Started
+------------------------------------------18-04-2024 15:55:40------------------------------------------
+InsertUserBL  ==>  UserCreation  ==>  Started
+------------------------------------------18-04-2024 15:55:40------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------18-04-2024 15:55:40------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------18-04-2024 15:55:52------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------18-04-2024 15:55:52------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------18-04-2024 15:56:00------------------------------------------
+Activity Controller => AddActivity ==> Started
+------------------------------------------18-04-2024 15:56:00------------------------------------------
+BL Activity ==>  ActivityMethod  ==>  Started
+------------------------------------------18-04-2024 15:56:00------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------18-04-2024 15:56:00------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------18-04-2024 15:56:02------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------18-04-2024 15:56:02------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------18-04-2024 15:56:22------------------------------------------
+Admin Login BL  ==>  Admin Login  ==>  Started
+------------------------------------------18-04-2024 15:56:28------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------18-04-2024 15:56:28------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------18-04-2024 15:56:36------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------18-04-2024 15:56:36------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------18-04-2024 15:57:03------------------------------------------
+User Controller ==> Create User ==> Started
+------------------------------------------18-04-2024 15:57:03------------------------------------------
+InsertUserBL  ==>  UserCreation  ==>  Started
+------------------------------------------18-04-2024 15:57:03------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------18-04-2024 15:57:03------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------18-04-2024 15:57:08------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------18-04-2024 15:57:08------------------------------------------
+Activity Controller => AddActivity ==> Started
+------------------------------------------18-04-2024 15:57:08------------------------------------------
+BL Activity ==>  ActivityMethod  ==>  Started
+------------------------------------------18-04-2024 15:57:08------------------------------------------
+System.IO.IOException: The process cannot access the file 'E:\Amit Pipaliya\Intern\Task\week 10\Event Management\Event Management\ErrorLog\ErrorLog_18-04-2024.txt' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append)
+   at LIBRARY.InsertLog.WriteErrrorLog(String exception) in E:\Amit Pipaliya\Intern\Task\week 10\Event Management\LIBRARY\InsertLog.cs:line 25==   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append)
+   at LIBRARY.InsertLog.WriteErrrorLog(String exception) in E:\Amit Pipaliya\Intern\Task\week 10\Event Management\LIBRARY\InsertLog.cs:line 25
+------------------------------------------18-04-2024 15:57:10------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------18-04-2024 15:57:10------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------18-04-2024 15:57:38------------------------------------------
+Admin Login BL  ==>  Admin Login  ==>  Started
+------------------------------------------18-04-2024 15:57:44------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------18-04-2024 15:57:44------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------18-04-2024 15:59:33------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------18-04-2024 15:59:33------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------18-04-2024 15:59:57------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------18-04-2024 15:59:57------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------18-04-2024 15:59:57------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------18-04-2024 15:59:57------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------18-04-2024 16:00:10------------------------------------------
+Activity Controller => AddActivity ==> Started
+------------------------------------------18-04-2024 16:00:10------------------------------------------
+BL Activity ==>  ActivityMethod  ==>  Started
+------------------------------------------18-04-2024 16:00:11------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------18-04-2024 16:00:11------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------18-04-2024 16:00:12------------------------------------------
+Activity Controller => AddActivity ==> Started
+------------------------------------------18-04-2024 16:00:12------------------------------------------
+BL Activity ==>  ActivityMethod  ==>  Started
+------------------------------------------18-04-2024 16:00:12------------------------------------------
+Activity Controller => AddActivity ==> Started
+------------------------------------------18-04-2024 16:00:12------------------------------------------
+BL Activity ==>  ActivityMethod  ==>  Started
+------------------------------------------18-04-2024 16:00:19------------------------------------------
+Activity Controller => AddActivity ==> Started
+------------------------------------------18-04-2024 16:00:19------------------------------------------
+BL Activity ==>  ActivityMethod  ==>  Started
+------------------------------------------18-04-2024 16:00:19------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------18-04-2024 16:00:19------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------18-04-2024 16:00:21------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------18-04-2024 16:00:21------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------18-04-2024 16:01:04------------------------------------------
+User Controller ==> Create User ==> Started
+------------------------------------------18-04-2024 16:01:04------------------------------------------
+InsertUserBL  ==>  UserCreation  ==>  Started
+------------------------------------------18-04-2024 16:01:04------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------18-04-2024 16:01:04------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------18-04-2024 16:01:20------------------------------------------
+Activity Controller => AddActivity ==> Started
+------------------------------------------18-04-2024 16:01:20------------------------------------------
+BL Activity ==>  ActivityMethod  ==>  Started
+------------------------------------------18-04-2024 16:01:20------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------18-04-2024 16:01:20------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------18-04-2024 16:01:21------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------18-04-2024 16:01:21------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------18-04-2024 16:02:58------------------------------------------
+Activity Controller => AddActivity ==> Started
+------------------------------------------18-04-2024 16:02:58------------------------------------------
+BL Activity ==>  ActivityMethod  ==>  Started
+------------------------------------------18-04-2024 16:02:58------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------18-04-2024 16:02:58------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------18-04-2024 16:03:00------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------18-04-2024 16:03:00------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------18-04-2024 16:03:03------------------------------------------
+Activity Controller => AddActivity ==> Started
+------------------------------------------18-04-2024 16:03:03------------------------------------------
+BL Activity ==>  ActivityMethod  ==>  Started
+------------------------------------------18-04-2024 16:03:03------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------18-04-2024 16:03:03------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------18-04-2024 16:03:04------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------18-04-2024 16:03:04------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------18-04-2024 16:04:17------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------18-04-2024 16:04:17------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------18-04-2024 16:04:35------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------18-04-2024 16:04:35------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------18-04-2024 16:04:44------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------18-04-2024 16:04:44------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------18-04-2024 16:04:46------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------18-04-2024 16:04:46------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------18-04-2024 16:13:05------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------18-04-2024 16:13:05------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------18-04-2024 16:13:11------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------18-04-2024 16:13:11------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------18-04-2024 16:13:27------------------------------------------
+User Controller ==> Create User ==> Started
+------------------------------------------18-04-2024 16:13:27------------------------------------------
+InsertUserBL  ==>  UserCreation  ==>  Started
+------------------------------------------18-04-2024 16:13:27------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------18-04-2024 16:13:27------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------18-04-2024 16:13:56------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------18-04-2024 16:14:03------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------18-04-2024 16:15:54------------------------------------------
+StringConvert => StringToImage => ExceptionValue cannot be null.
+Parameter name: inArray   at System.Convert.ToBase64String(Byte[] inArray)
+   at BL.Event.EventMethod(EventModel objEntity)
+------------------------------------------18-04-2024 16:16:10------------------------------------------
+StringConvert => StringToImage => ExceptionCould not find file 'C:\Program Files (x86)\IIS Express\sample string'.   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   at System.IO.File.ReadAllBytes(String path)
+   at BL.Event.EventMethod(EventModel objEntity)
+------------------------------------------18-04-2024 16:16:26------------------------------------------
+Activity Controller => AddActivity ==> Started
+------------------------------------------18-04-2024 16:16:26------------------------------------------
+BL Activity ==>  ActivityMethod  ==>  Started
+------------------------------------------18-04-2024 16:16:26------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------18-04-2024 16:16:28------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------18-04-2024 16:16:31------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------18-04-2024 16:16:32------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------18-04-2024 16:16:33------------------------------------------
+StringConvert => StringToImage => ExceptionCould not find file 'C:\Program Files (x86)\IIS Express\Surat'.   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   at System.IO.File.ReadAllBytes(String path)
+   at BL.Event.EventMethod(EventModel objEntity)
+------------------------------------------18-04-2024 16:16:33------------------------------------------
+StringConvert => StringToImage => ExceptionCould not find file 'C:\Program Files (x86)\IIS Express\sample string'.   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   at System.IO.File.ReadAllBytes(String path)
+   at BL.Event.EventMethod(EventModel objEntity)
+------------------------------------------18-04-2024 16:16:36------------------------------------------
+Activity Controller => AddActivity ==> Started
+------------------------------------------18-04-2024 16:16:36------------------------------------------
+BL Activity ==>  ActivityMethod  ==>  Started
+------------------------------------------18-04-2024 16:16:36------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------18-04-2024 16:16:37------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------18-04-2024 16:16:40------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------18-04-2024 16:16:44------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------18-04-2024 16:16:44------------------------------------------
+StringConvert => StringToImage => ExceptionCould not find file 'C:\Program Files (x86)\IIS Express\Surat'.   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   at System.IO.File.ReadAllBytes(String path)
+   at BL.Event.EventMethod(EventModel objEntity)
+------------------------------------------18-04-2024 16:16:44------------------------------------------
+StringConvert => StringToImage => ExceptionCould not find file 'C:\Program Files (x86)\IIS Express\sample string'.   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   at System.IO.File.ReadAllBytes(String path)
+   at BL.Event.EventMethod(EventModel objEntity)
+------------------------------------------18-04-2024 16:16:46------------------------------------------
+Activity Controller => AddActivity ==> Started
+------------------------------------------18-04-2024 16:16:46------------------------------------------
+BL Activity ==>  ActivityMethod  ==>  Started
+------------------------------------------18-04-2024 16:16:46------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------18-04-2024 16:16:46------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------18-04-2024 16:16:48------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------18-04-2024 16:16:48------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------18-04-2024 16:16:48------------------------------------------
+StringConvert => StringToImage => ExceptionCould not find file 'C:\Program Files (x86)\IIS Express\Surat'.   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   at System.IO.File.ReadAllBytes(String path)
+   at BL.Event.EventMethod(EventModel objEntity)
+------------------------------------------18-04-2024 16:16:48------------------------------------------
+StringConvert => StringToImage => ExceptionCould not find file 'C:\Program Files (x86)\IIS Express\sample string'.   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   at System.IO.File.ReadAllBytes(String path)
+   at BL.Event.EventMethod(EventModel objEntity)
+------------------------------------------18-04-2024 16:17:22------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------18-04-2024 16:17:22------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------18-04-2024 16:17:22------------------------------------------
+StringConvert => StringToImage => ExceptionCould not find file 'C:\Program Files (x86)\IIS Express\Surat'.   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   at System.IO.File.ReadAllBytes(String path)
+   at BL.Event.EventMethod(EventModel objEntity)
+------------------------------------------18-04-2024 16:17:22------------------------------------------
+StringConvert => StringToImage => ExceptionCould not find file 'C:\Program Files (x86)\IIS Express\sample string'.   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   at System.IO.File.ReadAllBytes(String path)
+   at BL.Event.EventMethod(EventModel objEntity)
+------------------------------------------18-04-2024 16:17:25------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------18-04-2024 16:17:25------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------18-04-2024 16:17:25------------------------------------------
+StringConvert => StringToImage => ExceptionCould not find file 'C:\Program Files (x86)\IIS Express\Surat'.   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   at System.IO.File.ReadAllBytes(String path)
+   at BL.Event.EventMethod(EventModel objEntity)
+------------------------------------------18-04-2024 16:17:25------------------------------------------
+StringConvert => StringToImage => ExceptionCould not find file 'C:\Program Files (x86)\IIS Express\sample string'.   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   at System.IO.File.ReadAllBytes(String path)
+   at BL.Event.EventMethod(EventModel objEntity)
+------------------------------------------18-04-2024 16:17:29------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------18-04-2024 16:17:29------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------18-04-2024 16:17:29------------------------------------------
+StringConvert => StringToImage => ExceptionCould not find file 'C:\Program Files (x86)\IIS Express\Surat'.   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   at System.IO.File.ReadAllBytes(String path)
+   at BL.Event.EventMethod(EventModel objEntity)
+------------------------------------------18-04-2024 16:17:29------------------------------------------
+StringConvert => StringToImage => ExceptionCould not find file 'C:\Program Files (x86)\IIS Express\sample string'.   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   at System.IO.File.ReadAllBytes(String path)
+   at BL.Event.EventMethod(EventModel objEntity)
+------------------------------------------18-04-2024 16:17:31------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------18-04-2024 16:17:31------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------18-04-2024 16:17:31------------------------------------------
+StringConvert => StringToImage => ExceptionCould not find file 'C:\Program Files (x86)\IIS Express\Surat'.   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   at System.IO.File.ReadAllBytes(String path)
+   at BL.Event.EventMethod(EventModel objEntity)
+------------------------------------------18-04-2024 16:17:31------------------------------------------
+StringConvert => StringToImage => ExceptionCould not find file 'C:\Program Files (x86)\IIS Express\sample string'.   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   at System.IO.File.ReadAllBytes(String path)
+   at BL.Event.EventMethod(EventModel objEntity)
+------------------------------------------18-04-2024 16:17:38------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------18-04-2024 16:17:38------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------18-04-2024 16:17:38------------------------------------------
+StringConvert => StringToImage => ExceptionCould not find file 'C:\Program Files (x86)\IIS Express\Surat'.   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   at System.IO.File.ReadAllBytes(String path)
+   at BL.Event.EventMethod(EventModel objEntity)
+------------------------------------------18-04-2024 16:17:38------------------------------------------
+StringConvert => StringToImage => ExceptionCould not find file 'C:\Program Files (x86)\IIS Express\sample string'.   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   at System.IO.File.ReadAllBytes(String path)
+   at BL.Event.EventMethod(EventModel objEntity)
+------------------------------------------18-04-2024 16:17:44------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------18-04-2024 16:17:44------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------18-04-2024 16:17:44------------------------------------------
+StringConvert => StringToImage => ExceptionCould not find file 'C:\Program Files (x86)\IIS Express\Surat'.   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   at System.IO.File.ReadAllBytes(String path)
+   at BL.Event.EventMethod(EventModel objEntity)
+------------------------------------------18-04-2024 16:17:44------------------------------------------
+StringConvert => StringToImage => ExceptionCould not find file 'C:\Program Files (x86)\IIS Express\sample string'.   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   at System.IO.File.ReadAllBytes(String path)
+   at BL.Event.EventMethod(EventModel objEntity)
+------------------------------------------18-04-2024 16:17:45------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------18-04-2024 16:17:45------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------18-04-2024 16:17:45------------------------------------------
+StringConvert => StringToImage => ExceptionCould not find file 'C:\Program Files (x86)\IIS Express\Surat'.   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   at System.IO.File.ReadAllBytes(String path)
+   at BL.Event.EventMethod(EventModel objEntity)
+------------------------------------------18-04-2024 16:17:45------------------------------------------
+StringConvert => StringToImage => ExceptionCould not find file 'C:\Program Files (x86)\IIS Express\sample string'.   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   at System.IO.File.ReadAllBytes(String path)
+   at BL.Event.EventMethod(EventModel objEntity)
+------------------------------------------18-04-2024 16:18:01------------------------------------------
+Admin Login BL  ==>  Admin Login  ==>  Started
+------------------------------------------18-04-2024 16:18:54------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------18-04-2024 16:18:54------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------18-04-2024 16:18:59------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------18-04-2024 16:18:59------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------18-04-2024 16:19:15------------------------------------------
+Activity Controller => AddActivity ==> Started
+------------------------------------------18-04-2024 16:19:15------------------------------------------
+BL Activity ==>  ActivityMethod  ==>  Started
+------------------------------------------18-04-2024 16:19:16------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------18-04-2024 16:19:16------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------18-04-2024 16:19:18------------------------------------------
+Activity Controller => AddActivity ==> Started
+------------------------------------------18-04-2024 16:19:18------------------------------------------
+BL Activity ==>  ActivityMethod  ==>  Started
+------------------------------------------18-04-2024 16:19:19------------------------------------------
+Activity Controller => AddActivity ==> Started
+------------------------------------------18-04-2024 16:19:19------------------------------------------
+BL Activity ==>  ActivityMethod  ==>  Started
+------------------------------------------18-04-2024 16:19:38------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------18-04-2024 16:19:38------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------18-04-2024 16:19:46------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------18-04-2024 16:19:46------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------18-04-2024 16:19:49------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------18-04-2024 16:19:49------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------18-04-2024 16:19:50------------------------------------------
+Activity Controller => AddActivity ==> Started
+------------------------------------------18-04-2024 16:19:50------------------------------------------
+BL Activity ==>  ActivityMethod  ==>  Started
+------------------------------------------18-04-2024 16:19:51------------------------------------------
+Activity Controller => AddActivity ==> Started
+------------------------------------------18-04-2024 16:19:51------------------------------------------
+BL Activity ==>  ActivityMethod  ==>  Started
+------------------------------------------18-04-2024 16:19:54------------------------------------------
+Activity Controller => AddActivity ==> Started
+------------------------------------------18-04-2024 16:19:54------------------------------------------
+BL Activity ==>  ActivityMethod  ==>  Started
+------------------------------------------18-04-2024 16:19:55------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------18-04-2024 16:19:55------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------18-04-2024 16:19:58------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------18-04-2024 16:19:58------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------18-04-2024 17:48:42------------------------------------------
+Admin Login BL  ==>  Admin Login  ==>  Started

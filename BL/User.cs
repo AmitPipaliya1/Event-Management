@@ -1,19 +1,20 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data.SqlClient;
-using System.Data;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using LIBRARY;
 using MODEL;
-using LIBRARY;
+using System;
+using System.Data;
+using System.Data.SqlClient;
 
 namespace BL
 {
     public class User
     {
-        //---------------------- USER CREAT AND LOGIN METHOD ---------------------------
-        public SerializeResponse<UserModel> UserMethod(UserModel objEntity)
+
+        /// <summary>
+        /// Name : Amit Pipaliya
+        /// Date : 18-04-24
+        /// This Method Use For --> User Registration  --> User Login  
+        /// </summary>
+        public SerializeResponse<UserModel> UserMethod(UserModel UserEntity)
         {
             InsertLog.WriteErrrorLog("InsertUserBL  ==>  UserCreation  ==>  Started");
             ConvertDataTable bl = new ConvertDataTable();
@@ -25,24 +26,24 @@ namespace BL
             try
             {
                 string Con_str = Connection.ConnectionString();
-                SqlParameter prm1 = objSDP.CreateInitializedParameter("@UserId", DbType.Int64, objEntity.UserId);
-                SqlParameter prm2 = objSDP.CreateInitializedParameter("@Name", DbType.String, objEntity.Name);
-                SqlParameter prm3 = objSDP.CreateInitializedParameter("@EmailId", DbType.String, objEntity.EmailId);
-                SqlParameter prm4 = objSDP.CreateInitializedParameter("@Password", DbType.String, objEntity.Password);
-                SqlParameter prm5 = objSDP.CreateInitializedParameter("@MobileNo", DbType.String, objEntity.MobileNo);
-                SqlParameter prm6 = objSDP.CreateInitializedParameter("@Address", DbType.String, objEntity.Address);
-                SqlParameter prm7 = objSDP.CreateInitializedParameter("@FLAG", DbType.String, objEntity.FLAG);
+                SqlParameter prm1 = objSDP.CreateInitializedParameter("@UserId", DbType.Int64, UserEntity.UserId);
+                SqlParameter prm2 = objSDP.CreateInitializedParameter("@Name", DbType.String, UserEntity.Name);
+                SqlParameter prm3 = objSDP.CreateInitializedParameter("@EmailId", DbType.String, UserEntity.EmailId);
+                SqlParameter prm4 = objSDP.CreateInitializedParameter("@Password", DbType.String, UserEntity.Password);
+                SqlParameter prm5 = objSDP.CreateInitializedParameter("@MobileNo", DbType.String, UserEntity.MobileNo);
+                SqlParameter prm6 = objSDP.CreateInitializedParameter("@Address", DbType.String, UserEntity.Address);
+                SqlParameter prm7 = objSDP.CreateInitializedParameter("@FLAG", DbType.String, UserEntity.FLAG);
 
-                SqlParameter[] Sqlpara = { prm1, prm2, prm3, prm4, prm5, prm6 , prm7 };
+                SqlParameter[] Sqlpara = { prm1, prm2, prm3, prm4, prm5, prm6, prm7 };
 
                 ds = SqlHelper.ExecuteDataset(Con_str, query, Sqlpara);
-                if (objEntity.FLAG == "UserRegister" && ds?.Tables.Count > 0 && ds.Tables[0].Rows.Count > 0)
+                if (UserEntity.FLAG == "UserRegister" && ds?.Tables.Count > 0 && ds.Tables[0].Rows.Count > 0)
                 {
                     // objResponsemessage.ArrayOfResponse = bl.ListConvertDataTable<UserModel>(ds.Tables[0]);
                     objResponsemessage.ID = Convert.ToInt32(ds.Tables[0].Rows[0]["ID"]);
                     objResponsemessage.Message = Convert.ToString(ds.Tables[0].Rows[0]["MESSAGE"]);
                 }
-                else if (objEntity.FLAG == "UserLogin" && ds?.Tables.Count > 0 && ds.Tables[0].Rows.Count > 0)
+                else if (UserEntity.FLAG == "UserLogin" && ds?.Tables.Count > 0 && ds.Tables[0].Rows.Count > 0)
                 {
                     // objResponsemessage.ArrayOfResponse = bl.ListConvertDataTable<UserModel>(ds.Tables[0]);
                     objResponsemessage.ID = Convert.ToInt32(ds.Tables[0].Rows[0]["ID"]);

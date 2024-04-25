@@ -2,31 +2,45 @@
 using LIBRARY;
 using MODEL;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net;
 using System.Net.Http;
+using System.Net;
 using System.Web.Http;
+using System.Runtime.Remoting;
 
 namespace Event_Management.Controllers
 {
     public class ActivityController : ApiController
     {
-        //---------------------- Activity API ----------------------
+
+
+        // This API Use for --> Add New Activity --> Show Activity ---> Add Price 
         [HttpPost]
         [Route("api/Activity/AddActivity")]
-        public SerializeResponse<ActivityModel> AddActivity([FromBody] ActivityModel AdminObj)
+        public HttpResponseMessage AddActivity(ActivityModel ActivityObj)
         {
+            InsertLog.WriteErrrorLog("Activity Controller => AddActivity ==> Started");
+            SerializeResponse<ActivityModel> Objres= new SerializeResponse<ActivityModel>();
             try
-            {
-                Activity activity = new Activity();
-                return activity.ActivityMethod(AdminObj);
+            {      
+                   if(ActivityObj != null)
+                   {
+                    Activity activity = new Activity();
+                    Objres = activity.ActivityMethod(ActivityObj);
+                   }
+                  else
+                  {
+                    Objres.Message = "Entity Can't Be Null";
+                    Objres.ID = 400;
+                  }
+                   
             }
             catch (Exception ex)
             {
-                InsertLog.WriteErrrorLog("UserController => CreateUser " + ex.Message + ex.StackTrace);
+                InsertLog.WriteErrrorLog("Activity Controller => AddActivity " + ex.Message + ex.StackTrace);
                 throw;
             }
+            return Request.CreateResponse(HttpStatusCode.OK, Objres);
         }
+
     }
 }

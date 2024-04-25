@@ -1,17 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Configuration;
-using System.Data.SqlClient;
-using System.Linq;
-using System.Web;
+﻿using System.Configuration;
 
 namespace LIBRARY
 {
-    public static  class Connection
+    public static class Connection
     {
-        public static string ConnectionString() 
+        public static string ConnectionString()
         {
-            string strcon = "data source=DESKTOP-OUFA455\\SQLEXPRESS; database=EventManagement; integrated security=SSPI";
+            string strcon = ConfigurationManager.ConnectionStrings["dbconnection"].ConnectionString;
             return strcon;
         }
     }

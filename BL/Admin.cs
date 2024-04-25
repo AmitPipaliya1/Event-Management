@@ -1,18 +1,20 @@
 ﻿using LIBRARY;
 using MODEL;
 using System;
-using System.Collections.Generic;
-using System.Data.SqlClient;
 using System.Data;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Data.SqlClient;
+using System.Runtime.CompilerServices;
 
 namespace BL
 {
     public class Admin
     {
-        //---------------------- Admin LOGIN METHOD ---------------------------
+
+        /// <summary>
+        /// Name : Amit Pipaliya
+        /// Date : 18-04-24
+        /// This Method Use  For Admin Login 
+        /// </summary>
         public SerializeResponse<AdminModel> AdminMethod(AdminModel objEntity)
         {
             InsertLog.WriteErrrorLog("Admin Login BL  ==>  Admin Login  ==>  Started");

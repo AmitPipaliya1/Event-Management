@@ -15,7 +15,7 @@ namespace LIBRARY
             SqlConnection objConnection = new SqlConnection(strConnectionString);
             return objConnection;
         }
-     
+
         public SqlParameter CreateParameter(string strParameterName, DbType objType)
         {
             SqlParameter objParameter = new SqlParameter();

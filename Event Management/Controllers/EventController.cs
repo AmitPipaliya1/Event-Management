@@ -2,31 +2,42 @@
 using LIBRARY;
 using MODEL;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net;
 using System.Net.Http;
+using System.Net;
 using System.Web.Http;
 
 namespace Event_Management.Controllers
 {
     public class EventController : ApiController
     {
-        //---------------------- EVENT API ----------------------
+        // This API Use for --> Add New Event --> Show Event ---> Publish Event 
         [HttpPost]
         [Route("api/Event/AddEvent")]
-        public SerializeResponse<EventModel> AddEvent([FromBody] EventModel EventOBJ)
+        public HttpResponseMessage AddEvent(EventModel EventObj)
         {
+            InsertLog.WriteErrrorLog("Event Controller ==> AddEvent ==> Started");
+            SerializeResponse<EventModel> Objres = new SerializeResponse<EventModel>();
             try
-            {  
-                Event newevent = new Event();
-                return newevent.EventMethod(EventOBJ);
+            {
+                if (EventObj != null)
+                {
+                    Event newevent = new Event();
+                    Objres = newevent.EventMethod(EventObj);
+                }
+                else
+                {
+                    Objres.Message = "Entity Can't Be Null";
+                    Objres.ID = 400;
+                }
+
             }
             catch (Exception ex)
             {
-                InsertLog.WriteErrrorLog("UserController => CreateUser " + ex.Message + ex.StackTrace);
+                InsertLog.WriteErrrorLog("Event Controller => AddEvent " + ex.Message + ex.StackTrace);
                 throw;
             }
+            return Request.CreateResponse(HttpStatusCode.OK, Objres);
         }
+
     }
 }

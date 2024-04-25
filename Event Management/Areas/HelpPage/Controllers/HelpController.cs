@@ -1,8 +1,8 @@
+using Event_Management.Areas.HelpPage.ModelDescriptions;
+using Event_Management.Areas.HelpPage.Models;
 using System;
 using System.Web.Http;
 using System.Web.Mvc;
-using Event_Management.Areas.HelpPage.ModelDescriptions;
-using Event_Management.Areas.HelpPage.Models;
 
 namespace Event_Management.Areas.HelpPage.Controllers
 {
