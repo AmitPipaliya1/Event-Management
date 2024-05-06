@@ -1,0 +1,356 @@
+------------------------------------------02-05-2024 14:52:15------------------------------------------
+User Controller ==> Create User ==> Started
+------------------------------------------02-05-2024 14:52:15------------------------------------------
+InsertUserBL  ==>  UserCreation  ==>  Started
+------------------------------------------02-05-2024 15:05:00------------------------------------------
+User Controller ==> Create User ==> Started
+------------------------------------------02-05-2024 15:05:00------------------------------------------
+InsertUserBL  ==>  UserCreation  ==>  Started
+------------------------------------------02-05-2024 15:30:11------------------------------------------
+User Controller ==> Create User ==> Started
+------------------------------------------02-05-2024 15:30:11------------------------------------------
+InsertUserBL  ==>  UserCreation  ==>  Started
+------------------------------------------02-05-2024 15:30:29------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------02-05-2024 15:30:29------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------02-05-2024 15:30:34------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------02-05-2024 15:30:34------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------02-05-2024 15:30:34------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------02-05-2024 15:30:34------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------02-05-2024 15:30:34------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------02-05-2024 15:30:36------------------------------------------
+System.IO.IOException: The process cannot access the file 'E:\Amit Pipaliya\Intern\Task\week 10\Event Management\Event Management\ErrorLog\ErrorLog_02-05-2024.txt' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append)
+   at LIBRARY.InsertLog.WriteErrrorLog(String exception) in E:\Amit Pipaliya\Intern\Task\week 10\Event Management\LIBRARY\InsertLog.cs:line 25==   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append)
+   at LIBRARY.InsertLog.WriteErrrorLog(String exception) in E:\Amit Pipaliya\Intern\Task\week 10\Event Management\LIBRARY\InsertLog.cs:line 25
+------------------------------------------02-05-2024 15:30:36------------------------------------------
+StringConvert => StringToImage => ExceptionThe specified path, file name, or both are too long. The fully qualified file name must be less than 260 characters, and the directory name must be less than 248 characters.   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.LongPathHelper.GetFullPathName(String path, StringBuffer fullPath)
+   at System.IO.LongPathHelper.Normalize(String path, UInt32 maxPathLength, Boolean checkInvalidCharacters, Boolean expandShortPaths)
+   at System.IO.Path.NewNormalizePath(String path, Int32 maxPathLength, Boolean expandShortPaths)
+   at System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   at System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   at System.IO.File.ReadAllBytes(String path)
+   at BL.base64toimg.StringToImage(String path) in E:\Amit Pipaliya\Intern\Task\week 10\Event Management\BL\base64toimg.cs:line 21
+------------------------------------------02-05-2024 15:30:36------------------------------------------
+System.IO.IOException: The process cannot access the file 'E:\Amit Pipaliya\Intern\Task\week 10\Event Management\Event Management\ErrorLog\ErrorLog_02-05-2024.txt' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append)
+   at LIBRARY.InsertLog.WriteErrrorLog(String exception) in E:\Amit Pipaliya\Intern\Task\week 10\Event Management\LIBRARY\InsertLog.cs:line 25==   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append)
+   at LIBRARY.InsertLog.WriteErrrorLog(String exception) in E:\Amit Pipaliya\Intern\Task\week 10\Event Management\LIBRARY\InsertLog.cs:line 25
+------------------------------------------02-05-2024 15:30:36------------------------------------------
+StringConvert => StringToImage => ExceptionThe specified path, file name, or both are too long. The fully qualified file name must be less than 260 characters, and the directory name must be less than 248 characters.   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.LongPathHelper.GetFullPathName(String path, StringBuffer fullPath)
+   at System.IO.LongPathHelper.Normalize(String path, UInt32 maxPathLength, Boolean checkInvalidCharacters, Boolean expandShortPaths)
+   at System.IO.Path.NewNormalizePath(String path, Int32 maxPathLength, Boolean expandShortPaths)
+   at System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   at System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   at System.IO.File.ReadAllBytes(String path)
+   at BL.base64toimg.StringToImage(String path) in E:\Amit Pipaliya\Intern\Task\week 10\Event Management\BL\base64toimg.cs:line 21
+------------------------------------------02-05-2024 15:30:36------------------------------------------
+StringConvert => StringToImage => ExceptionThe specified path, file name, or both are too long. The fully qualified file name must be less than 260 characters, and the directory name must be less than 248 characters.   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.LongPathHelper.GetFullPathName(String path, StringBuffer fullPath)
+   at System.IO.LongPathHelper.Normalize(String path, UInt32 maxPathLength, Boolean checkInvalidCharacters, Boolean expandShortPaths)
+   at System.IO.Path.NewNormalizePath(String path, Int32 maxPathLength, Boolean expandShortPaths)
+   at System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   at System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   at System.IO.File.ReadAllBytes(String path)
+   at BL.base64toimg.StringToImage(String path) in E:\Amit Pipaliya\Intern\Task\week 10\Event Management\BL\base64toimg.cs:line 21
+------------------------------------------02-05-2024 15:30:37------------------------------------------
+StringConvert => StringToImage => ExceptionThe specified path, file name, or both are too long. The fully qualified file name must be less than 260 characters, and the directory name must be less than 248 characters.   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.LongPathHelper.GetFullPathName(String path, StringBuffer fullPath)
+   at System.IO.LongPathHelper.Normalize(String path, UInt32 maxPathLength, Boolean checkInvalidCharacters, Boolean expandShortPaths)
+   at System.IO.Path.NewNormalizePath(String path, Int32 maxPathLength, Boolean expandShortPaths)
+   at System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   at System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   at System.IO.File.ReadAllBytes(String path)
+   at BL.base64toimg.StringToImage(String path) in E:\Amit Pipaliya\Intern\Task\week 10\Event Management\BL\base64toimg.cs:line 21
+------------------------------------------02-05-2024 15:30:37------------------------------------------
+StringConvert => StringToImage => ExceptionThe specified path, file name, or both are too long. The fully qualified file name must be less than 260 characters, and the directory name must be less than 248 characters.   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.LongPathHelper.GetFullPathName(String path, StringBuffer fullPath)
+   at System.IO.LongPathHelper.Normalize(String path, UInt32 maxPathLength, Boolean checkInvalidCharacters, Boolean expandShortPaths)
+   at System.IO.Path.NewNormalizePath(String path, Int32 maxPathLength, Boolean expandShortPaths)
+   at System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   at System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   at System.IO.File.ReadAllBytes(String path)
+   at BL.base64toimg.StringToImage(String path) in E:\Amit Pipaliya\Intern\Task\week 10\Event Management\BL\base64toimg.cs:line 21
+------------------------------------------02-05-2024 15:30:41------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------02-05-2024 15:30:41------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------02-05-2024 15:30:42------------------------------------------
+Activity Controller => AddActivity ==> Started
+------------------------------------------02-05-2024 15:30:42------------------------------------------
+BL Activity ==>  ActivityMethod  ==>  Started
+------------------------------------------02-05-2024 15:30:53------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------02-05-2024 15:30:53------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------02-05-2024 15:30:53------------------------------------------
+StringConvert => StringToImage => ExceptionThe specified path, file name, or both are too long. The fully qualified file name must be less than 260 characters, and the directory name must be less than 248 characters.   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.LongPathHelper.GetFullPathName(String path, StringBuffer fullPath)
+   at System.IO.LongPathHelper.Normalize(String path, UInt32 maxPathLength, Boolean checkInvalidCharacters, Boolean expandShortPaths)
+   at System.IO.Path.NewNormalizePath(String path, Int32 maxPathLength, Boolean expandShortPaths)
+   at System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   at System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   at System.IO.File.ReadAllBytes(String path)
+   at BL.base64toimg.StringToImage(String path) in E:\Amit Pipaliya\Intern\Task\week 10\Event Management\BL\base64toimg.cs:line 21
+------------------------------------------02-05-2024 15:30:53------------------------------------------
+StringConvert => StringToImage => ExceptionThe specified path, file name, or both are too long. The fully qualified file name must be less than 260 characters, and the directory name must be less than 248 characters.   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.LongPathHelper.GetFullPathName(String path, StringBuffer fullPath)
+   at System.IO.LongPathHelper.Normalize(String path, UInt32 maxPathLength, Boolean checkInvalidCharacters, Boolean expandShortPaths)
+   at System.IO.Path.NewNormalizePath(String path, Int32 maxPathLength, Boolean expandShortPaths)
+   at System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   at System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   at System.IO.File.ReadAllBytes(String path)
+   at BL.base64toimg.StringToImage(String path) in E:\Amit Pipaliya\Intern\Task\week 10\Event Management\BL\base64toimg.cs:line 21
+------------------------------------------02-05-2024 15:30:58------------------------------------------
+Activity Controller => AddActivity ==> Started
+------------------------------------------02-05-2024 15:30:58------------------------------------------
+BL Activity ==>  ActivityMethod  ==>  Started
+------------------------------------------02-05-2024 15:30:59------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------02-05-2024 15:30:59------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------02-05-2024 15:34:47------------------------------------------
+User Controller ==> Create User ==> Started
+------------------------------------------02-05-2024 15:34:47------------------------------------------
+InsertUserBL  ==>  UserCreation  ==>  Started
+------------------------------------------02-05-2024 15:34:53------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------02-05-2024 15:34:53------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------02-05-2024 15:34:53------------------------------------------
+StringConvert => StringToImage => ExceptionThe specified path, file name, or both are too long. The fully qualified file name must be less than 260 characters, and the directory name must be less than 248 characters.   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.LongPathHelper.GetFullPathName(String path, StringBuffer fullPath)
+   at System.IO.LongPathHelper.Normalize(String path, UInt32 maxPathLength, Boolean checkInvalidCharacters, Boolean expandShortPaths)
+   at System.IO.Path.NewNormalizePath(String path, Int32 maxPathLength, Boolean expandShortPaths)
+   at System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   at System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   at System.IO.File.ReadAllBytes(String path)
+   at BL.base64toimg.StringToImage(String path) in E:\Amit Pipaliya\Intern\Task\week 10\Event Management\BL\base64toimg.cs:line 21
+------------------------------------------02-05-2024 15:34:53------------------------------------------
+StringConvert => StringToImage => ExceptionThe specified path, file name, or both are too long. The fully qualified file name must be less than 260 characters, and the directory name must be less than 248 characters.   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.LongPathHelper.GetFullPathName(String path, StringBuffer fullPath)
+   at System.IO.LongPathHelper.Normalize(String path, UInt32 maxPathLength, Boolean checkInvalidCharacters, Boolean expandShortPaths)
+   at System.IO.Path.NewNormalizePath(String path, Int32 maxPathLength, Boolean expandShortPaths)
+   at System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   at System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   at System.IO.File.ReadAllBytes(String path)
+   at BL.base64toimg.StringToImage(String path) in E:\Amit Pipaliya\Intern\Task\week 10\Event Management\BL\base64toimg.cs:line 21
+------------------------------------------02-05-2024 15:34:57------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------02-05-2024 15:34:57------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------02-05-2024 15:34:58------------------------------------------
+StringConvert => StringToImage => ExceptionThe specified path, file name, or both are too long. The fully qualified file name must be less than 260 characters, and the directory name must be less than 248 characters.   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.LongPathHelper.GetFullPathName(String path, StringBuffer fullPath)
+   at System.IO.LongPathHelper.Normalize(String path, UInt32 maxPathLength, Boolean checkInvalidCharacters, Boolean expandShortPaths)
+   at System.IO.Path.NewNormalizePath(String path, Int32 maxPathLength, Boolean expandShortPaths)
+   at System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   at System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   at System.IO.File.ReadAllBytes(String path)
+   at BL.base64toimg.StringToImage(String path) in E:\Amit Pipaliya\Intern\Task\week 10\Event Management\BL\base64toimg.cs:line 21
+------------------------------------------02-05-2024 15:34:58------------------------------------------
+StringConvert => StringToImage => ExceptionThe specified path, file name, or both are too long. The fully qualified file name must be less than 260 characters, and the directory name must be less than 248 characters.   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.LongPathHelper.GetFullPathName(String path, StringBuffer fullPath)
+   at System.IO.LongPathHelper.Normalize(String path, UInt32 maxPathLength, Boolean checkInvalidCharacters, Boolean expandShortPaths)
+   at System.IO.Path.NewNormalizePath(String path, Int32 maxPathLength, Boolean expandShortPaths)
+   at System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   at System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   at System.IO.File.ReadAllBytes(String path)
+   at BL.base64toimg.StringToImage(String path) in E:\Amit Pipaliya\Intern\Task\week 10\Event Management\BL\base64toimg.cs:line 21
+------------------------------------------02-05-2024 15:36:13------------------------------------------
+User Controller ==> Create User ==> Started
+------------------------------------------02-05-2024 15:36:15------------------------------------------
+InsertUserBL  ==>  UserCreation  ==>  Started
+------------------------------------------02-05-2024 15:36:24------------------------------------------
+InsertUserBL  ==>  UserCreation  ==>  Started
+------------------------------------------02-05-2024 15:37:08------------------------------------------
+InsertUserBL  ==>  UserCreation  ==>  Started
+------------------------------------------02-05-2024 15:37:23------------------------------------------
+User Controller ==> Create User ==> Started
+------------------------------------------02-05-2024 15:37:31------------------------------------------
+InsertUserBL  ==>  UserCreation  ==>  Started
+------------------------------------------02-05-2024 15:37:59------------------------------------------
+User Controller ==> Create User ==> Started
+------------------------------------------02-05-2024 15:38:03------------------------------------------
+InsertUserBL  ==>  UserCreation  ==>  Started
+------------------------------------------02-05-2024 16:05:37------------------------------------------
+User Controller ==> Create User ==> Started
+------------------------------------------02-05-2024 16:05:40------------------------------------------
+InsertUserBL  ==>  UserCreation  ==>  Started
+------------------------------------------02-05-2024 16:05:48------------------------------------------
+InsertUserBL  ==>  UserCreation  ==>  Started
+------------------------------------------02-05-2024 16:06:06------------------------------------------
+User Controller ==> Create User ==> Started
+------------------------------------------02-05-2024 16:06:08------------------------------------------
+InsertUserBL  ==>  UserCreation  ==>  Started
+------------------------------------------02-05-2024 16:07:08------------------------------------------
+User Controller ==> Create User ==> Started
+------------------------------------------02-05-2024 16:07:09------------------------------------------
+InsertUserBL  ==>  UserCreation  ==>  Started
+------------------------------------------02-05-2024 16:07:15------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------02-05-2024 16:07:15------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------02-05-2024 16:07:17------------------------------------------
+StringConvert => StringToImage => ExceptionThe specified path, file name, or both are too long. The fully qualified file name must be less than 260 characters, and the directory name must be less than 248 characters.   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.LongPathHelper.GetFullPathName(String path, StringBuffer fullPath)
+   at System.IO.LongPathHelper.Normalize(String path, UInt32 maxPathLength, Boolean checkInvalidCharacters, Boolean expandShortPaths)
+   at System.IO.Path.NewNormalizePath(String path, Int32 maxPathLength, Boolean expandShortPaths)
+   at System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   at System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   at System.IO.File.ReadAllBytes(String path)
+   at BL.base64toimg.StringToImage(String path) in E:\Amit Pipaliya\Intern\Task\week 10\Event Management\BL\base64toimg.cs:line 21
+------------------------------------------02-05-2024 16:07:17------------------------------------------
+StringConvert => StringToImage => ExceptionThe specified path, file name, or both are too long. The fully qualified file name must be less than 260 characters, and the directory name must be less than 248 characters.   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.LongPathHelper.GetFullPathName(String path, StringBuffer fullPath)
+   at System.IO.LongPathHelper.Normalize(String path, UInt32 maxPathLength, Boolean checkInvalidCharacters, Boolean expandShortPaths)
+   at System.IO.Path.NewNormalizePath(String path, Int32 maxPathLength, Boolean expandShortPaths)
+   at System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   at System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   at System.IO.File.ReadAllBytes(String path)
+   at BL.base64toimg.StringToImage(String path) in E:\Amit Pipaliya\Intern\Task\week 10\Event Management\BL\base64toimg.cs:line 21
+------------------------------------------02-05-2024 16:07:17------------------------------------------
+StringConvert => StringToImage => ExceptionThe specified path, file name, or both are too long. The fully qualified file name must be less than 260 characters, and the directory name must be less than 248 characters.   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.LongPathHelper.GetFullPathName(String path, StringBuffer fullPath)
+   at System.IO.LongPathHelper.Normalize(String path, UInt32 maxPathLength, Boolean checkInvalidCharacters, Boolean expandShortPaths)
+   at System.IO.Path.NewNormalizePath(String path, Int32 maxPathLength, Boolean expandShortPaths)
+   at System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   at System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.File.InternalReadAllBytes(String path, Boolean checkHost)
+   at System.IO.File.ReadAllBytes(String path)
+   at BL.base64toimg.StringToImage(String path) in E:\Amit Pipaliya\Intern\Task\week 10\Event Management\BL\base64toimg.cs:line 21
+------------------------------------------02-05-2024 16:07:22------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------02-05-2024 16:07:22------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------02-05-2024 16:07:22------------------------------------------
+Activity Controller => AddActivity ==> Started
+------------------------------------------02-05-2024 16:07:22------------------------------------------
+BL Activity ==>  ActivityMethod  ==>  Started
+------------------------------------------02-05-2024 16:30:38------------------------------------------
+Admin Login BL  ==>  Admin Login  ==>  Started
+------------------------------------------02-05-2024 16:30:39------------------------------------------
+System.IO.IOException: The process cannot access the file 'E:\Amit Pipaliya\Intern\Task\week 10\Event Management\Event Management\ErrorLog\ErrorLog_02-05-2024.txt' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append)
+   at LIBRARY.InsertLog.WriteErrrorLog(String exception) in E:\Amit Pipaliya\Intern\Task\week 10\Event Management\LIBRARY\InsertLog.cs:line 25==   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append)
+   at LIBRARY.InsertLog.WriteErrrorLog(String exception) in E:\Amit Pipaliya\Intern\Task\week 10\Event Management\LIBRARY\InsertLog.cs:line 25
+------------------------------------------02-05-2024 16:31:25------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------02-05-2024 16:31:29------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------02-05-2024 16:31:41------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------02-05-2024 16:32:26------------------------------------------
+E:\Amit Pipaliya\Intern\Task\week 10\Event Management\Event Management\image\img_02-05-2024 16-31-29.jpgStringConvert => imgToString => ExceptionIndex was outside the bounds of the array.   at BL.Event.EventMethod(EventModel objEntity) in E:\Amit Pipaliya\Intern\Task\week 10\Event Management\BL\Event.cs:line 45
+------------------------------------------02-05-2024 16:33:06------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------02-05-2024 16:33:10------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------02-05-2024 16:35:35------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------02-05-2024 16:35:38------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------02-05-2024 16:38:14------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------02-05-2024 16:38:14------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------02-05-2024 16:38:15------------------------------------------
+System.IO.IOException: The process cannot access the file 'E:\Amit Pipaliya\Intern\Task\week 10\Event Management\Event Management\ErrorLog\ErrorLog_02-05-2024.txt' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append)
+   at LIBRARY.InsertLog.WriteErrrorLog(String exception) in E:\Amit Pipaliya\Intern\Task\week 10\Event Management\LIBRARY\InsertLog.cs:line 25==   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append)
+   at LIBRARY.InsertLog.WriteErrrorLog(String exception) in E:\Amit Pipaliya\Intern\Task\week 10\Event Management\LIBRARY\InsertLog.cs:line 25
+------------------------------------------02-05-2024 16:38:15------------------------------------------
+BL Activity ==>  ActivityMethod  ==>  Started
+------------------------------------------02-05-2024 16:38:34------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------02-05-2024 16:38:41------------------------------------------
+BL Event ==>  EventMethod  ==>  Started

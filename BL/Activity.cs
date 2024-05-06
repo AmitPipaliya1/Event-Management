@@ -34,7 +34,6 @@ namespace BL
                 SqlParameter prm6 = objSDP.CreateInitializedParameter("@StartDate", DbType.String, ActivityEntity.StartDate);
                 SqlParameter prm7 = objSDP.CreateInitializedParameter("@EndDate", DbType.String, ActivityEntity.EndDate);
                 SqlParameter prm8 = objSDP.CreateInitializedParameter("@FLAG", DbType.String, ActivityEntity.FLAG);
-
                 SqlParameter[] Sqlpara = { prm1, prm2, prm3, prm4, prm5, prm6, prm7, prm8 };
                 ds = SqlHelper.ExecuteDataset(Con_str, query, Sqlpara);
 

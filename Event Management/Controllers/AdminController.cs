@@ -13,9 +13,15 @@ namespace Event_Management.Controllers
 {
     public class AdminController : ApiController
     {
-        // This API Use for Admin Login 
+
+        /// <summary>
+        /// Name : Amit Pipaliya
+        /// Date : 18-04-24
+        /// This API Use for Admin Login 
+        /// </summary>
         [HttpPost]
         [Route("api/Admin/AdminLogin")]
+       
         public HttpResponseMessage AdminLogin(AdminModel AdminObj)
         {
             SerializeResponse<AdminModel> Objres = new SerializeResponse<AdminModel>();

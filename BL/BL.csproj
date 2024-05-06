@@ -43,9 +43,11 @@
   <ItemGroup>
     <Compile Include="Activity.cs" />
     <Compile Include="Admin.cs" />
+    <Compile Include="base64toimg.cs" />
     <Compile Include="Class1.cs" />
     <Compile Include="Event.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PswdEncryptDecrypt.cs" />
     <Compile Include="User.cs" />
   </ItemGroup>
   <ItemGroup>

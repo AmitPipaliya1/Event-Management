@@ -9,7 +9,6 @@ namespace BL
 {
     public class Admin
     {
-
         /// <summary>
         /// Name : Amit Pipaliya
         /// Date : 18-04-24

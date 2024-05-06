@@ -10,7 +10,11 @@ namespace Event_Management.Controllers
 {
     public class EventController : ApiController
     {
-        // This API Use for --> Add New Event --> Show Event ---> Publish Event 
+        /// <summary>
+        /// Name : Amit Pipaliya
+        /// Date : 18-04-24
+        /// This API Use for --> Add New Event --> Show Event ---> Publish Event 
+        /// </summary>
         [HttpPost]
         [Route("api/Event/AddEvent")]
         public HttpResponseMessage AddEvent(EventModel EventObj)
@@ -29,7 +33,6 @@ namespace Event_Management.Controllers
                     Objres.Message = "Entity Can't Be Null";
                     Objres.ID = 400;
                 }
-
             }
             catch (Exception ex)
             {
@@ -38,6 +41,5 @@ namespace Event_Management.Controllers
             }
             return Request.CreateResponse(HttpStatusCode.OK, Objres);
         }
-
     }
 }

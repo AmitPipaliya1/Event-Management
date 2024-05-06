@@ -10,7 +10,12 @@ namespace Event_Management.Controllers
 {
     public class UserController : ApiController
     {
-        // This API Use for --> User Registration  --> User Login   
+        /// <summary>
+        /// Name : Amit Pipaliya
+        /// Date : 18-04-24
+        /// This API Use for --> User Registration  --> User Login   
+        /// </summary>
+
         [HttpPost]
         [Route("api/User/CreateUser")]
         public HttpResponseMessage CreateUser(UserModel UserObj)

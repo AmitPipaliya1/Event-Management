@@ -12,8 +12,11 @@ namespace Event_Management.Controllers
     public class ActivityController : ApiController
     {
 
-
-        // This API Use for --> Add New Activity --> Show Activity ---> Add Price 
+        /// <summary>
+        /// Name : Amit Pipaliya
+        /// Date : 18-04-24
+        /// This API Use for --> Add New Activity --> Show Activity ---> Add Price 
+        /// </summary>
         [HttpPost]
         [Route("api/Activity/AddActivity")]
         public HttpResponseMessage AddActivity(ActivityModel ActivityObj)

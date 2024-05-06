@@ -1,0 +1,2179 @@
+------------------------------------------26-04-2024 11:11:28------------------------------------------
+User Controller ==> Create User ==> Started
+------------------------------------------26-04-2024 11:11:28------------------------------------------
+InsertUserBL  ==>  UserCreation  ==>  Started
+------------------------------------------26-04-2024 11:11:29------------------------------------------
+User Controller ==> Create User ==> Started
+------------------------------------------26-04-2024 11:11:29------------------------------------------
+InsertUserBL  ==>  UserCreation  ==>  Started
+------------------------------------------26-04-2024 11:11:29------------------------------------------
+User Controller ==> Create User ==> Started
+------------------------------------------26-04-2024 11:11:29------------------------------------------
+InsertUserBL  ==>  UserCreation  ==>  Started
+------------------------------------------26-04-2024 11:11:29------------------------------------------
+User Controller ==> Create User ==> Started
+------------------------------------------26-04-2024 11:11:29------------------------------------------
+InsertUserBL  ==>  UserCreation  ==>  Started
+------------------------------------------26-04-2024 11:11:29------------------------------------------
+User Controller ==> Create User ==> Started
+------------------------------------------26-04-2024 11:11:29------------------------------------------
+InsertUserBL  ==>  UserCreation  ==>  Started
+------------------------------------------26-04-2024 11:11:31------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 11:11:31------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 11:11:39------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 11:11:39------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 11:11:39------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 11:11:39------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 11:11:39------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 11:11:39------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 11:11:39------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 11:11:39------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 11:11:40------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 11:11:40------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 11:11:41------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 11:11:41------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 11:11:41------------------------------------------
+Activity Controller => AddActivity ==> Started
+------------------------------------------26-04-2024 11:11:41------------------------------------------
+BL Activity ==>  ActivityMethod  ==>  Started
+------------------------------------------26-04-2024 11:12:04------------------------------------------
+Activity Controller => AddActivity ==> Started
+------------------------------------------26-04-2024 11:12:04------------------------------------------
+BL Activity ==>  ActivityMethod  ==>  Started
+------------------------------------------26-04-2024 11:12:05------------------------------------------
+System.IO.IOException: The process cannot access the file 'E:\Amit Pipaliya\Intern\Task\week 10\Event Management\Event Management\ErrorLog\ErrorLog_26-04-2024.txt' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append)
+   at LIBRARY.InsertLog.WriteErrrorLog(String exception) in E:\Amit Pipaliya\Intern\Task\week 10\Event Management\LIBRARY\InsertLog.cs:line 25==   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append)
+   at LIBRARY.InsertLog.WriteErrrorLog(String exception) in E:\Amit Pipaliya\Intern\Task\week 10\Event Management\LIBRARY\InsertLog.cs:line 25
+------------------------------------------26-04-2024 11:12:05------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 11:12:10------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 11:12:10------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 11:12:11------------------------------------------
+Activity Controller => AddActivity ==> Started
+------------------------------------------26-04-2024 11:12:11------------------------------------------
+BL Activity ==>  ActivityMethod  ==>  Started
+------------------------------------------26-04-2024 11:12:11------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 11:12:11------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 11:12:19------------------------------------------
+Activity Controller => AddActivity ==> Started
+------------------------------------------26-04-2024 11:12:19------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 11:12:19------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 11:12:19------------------------------------------
+System.IO.IOException: The process cannot access the file 'E:\Amit Pipaliya\Intern\Task\week 10\Event Management\Event Management\ErrorLog\ErrorLog_26-04-2024.txt' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append)
+   at LIBRARY.InsertLog.WriteErrrorLog(String exception) in E:\Amit Pipaliya\Intern\Task\week 10\Event Management\LIBRARY\InsertLog.cs:line 25==   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append)
+   at LIBRARY.InsertLog.WriteErrrorLog(String exception) in E:\Amit Pipaliya\Intern\Task\week 10\Event Management\LIBRARY\InsertLog.cs:line 25
+------------------------------------------26-04-2024 11:12:22------------------------------------------
+Activity Controller => AddActivity ==> Started
+------------------------------------------26-04-2024 11:12:22------------------------------------------
+BL Activity ==>  ActivityMethod  ==>  Started
+------------------------------------------26-04-2024 11:12:22------------------------------------------
+System.IO.IOException: The process cannot access the file 'E:\Amit Pipaliya\Intern\Task\week 10\Event Management\Event Management\ErrorLog\ErrorLog_26-04-2024.txt' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append)
+   at LIBRARY.InsertLog.WriteErrrorLog(String exception) in E:\Amit Pipaliya\Intern\Task\week 10\Event Management\LIBRARY\InsertLog.cs:line 25==   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append)
+   at LIBRARY.InsertLog.WriteErrrorLog(String exception) in E:\Amit Pipaliya\Intern\Task\week 10\Event Management\LIBRARY\InsertLog.cs:line 25
+------------------------------------------26-04-2024 11:12:22------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 11:12:24------------------------------------------
+Activity Controller => AddActivity ==> Started
+------------------------------------------26-04-2024 11:12:24------------------------------------------
+BL Activity ==>  ActivityMethod  ==>  Started
+------------------------------------------26-04-2024 11:12:24------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 11:12:24------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 11:12:27------------------------------------------
+Activity Controller => AddActivity ==> Started
+------------------------------------------26-04-2024 11:12:27------------------------------------------
+BL Activity ==>  ActivityMethod  ==>  Started
+------------------------------------------26-04-2024 11:12:27------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 11:12:27------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 11:14:09------------------------------------------
+Activity Controller => AddActivity ==> Started
+------------------------------------------26-04-2024 11:14:09------------------------------------------
+BL Activity ==>  ActivityMethod  ==>  Started
+------------------------------------------26-04-2024 11:14:09------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 11:14:09------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 11:14:14------------------------------------------
+Activity Controller => AddActivity ==> Started
+------------------------------------------26-04-2024 11:14:14------------------------------------------
+BL Activity ==>  ActivityMethod  ==>  Started
+------------------------------------------26-04-2024 11:14:14------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 11:14:14------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 11:14:16------------------------------------------
+Activity Controller => AddActivity ==> Started
+------------------------------------------26-04-2024 11:14:16------------------------------------------
+BL Activity ==>  ActivityMethod  ==>  Started
+------------------------------------------26-04-2024 11:14:16------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 11:14:16------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 11:14:24------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 11:14:24------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 11:14:25------------------------------------------
+Activity Controller => AddActivity ==> Started
+------------------------------------------26-04-2024 11:14:25------------------------------------------
+BL Activity ==>  ActivityMethod  ==>  Started
+------------------------------------------26-04-2024 11:14:25------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 11:14:25------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 11:14:27------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 11:14:27------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 11:14:27------------------------------------------
+Activity Controller => AddActivity ==> Started
+------------------------------------------26-04-2024 11:14:27------------------------------------------
+BL Activity ==>  ActivityMethod  ==>  Started
+------------------------------------------26-04-2024 11:14:27------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 11:14:27------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 11:14:29------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 11:14:29------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 11:15:10------------------------------------------
+User Controller ==> Create User ==> Started
+------------------------------------------26-04-2024 11:15:10------------------------------------------
+InsertUserBL  ==>  UserCreation  ==>  Started
+------------------------------------------26-04-2024 11:15:11------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 11:15:11------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 11:15:12------------------------------------------
+Activity Controller => AddActivity ==> Started
+------------------------------------------26-04-2024 11:15:12------------------------------------------
+BL Activity ==>  ActivityMethod  ==>  Started
+------------------------------------------26-04-2024 11:15:12------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 11:15:12------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 11:15:17------------------------------------------
+Activity Controller => AddActivity ==> Started
+------------------------------------------26-04-2024 11:15:17------------------------------------------
+BL Activity ==>  ActivityMethod  ==>  Started
+------------------------------------------26-04-2024 11:15:17------------------------------------------
+System.IO.IOException: The process cannot access the file 'E:\Amit Pipaliya\Intern\Task\week 10\Event Management\Event Management\ErrorLog\ErrorLog_26-04-2024.txt' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append)
+   at LIBRARY.InsertLog.WriteErrrorLog(String exception) in E:\Amit Pipaliya\Intern\Task\week 10\Event Management\LIBRARY\InsertLog.cs:line 25==   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append)
+   at LIBRARY.InsertLog.WriteErrrorLog(String exception) in E:\Amit Pipaliya\Intern\Task\week 10\Event Management\LIBRARY\InsertLog.cs:line 25
+------------------------------------------26-04-2024 11:15:17------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 11:15:19------------------------------------------
+Activity Controller => AddActivity ==> Started
+------------------------------------------26-04-2024 11:15:19------------------------------------------
+BL Activity ==>  ActivityMethod  ==>  Started
+------------------------------------------26-04-2024 11:15:19------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 11:15:19------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 11:15:22------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 11:15:22------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 11:15:22------------------------------------------
+System.IO.IOException: The process cannot access the file 'E:\Amit Pipaliya\Intern\Task\week 10\Event Management\Event Management\ErrorLog\ErrorLog_26-04-2024.txt' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append)
+   at LIBRARY.InsertLog.WriteErrrorLog(String exception) in E:\Amit Pipaliya\Intern\Task\week 10\Event Management\LIBRARY\InsertLog.cs:line 25==   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append)
+   at LIBRARY.InsertLog.WriteErrrorLog(String exception) in E:\Amit Pipaliya\Intern\Task\week 10\Event Management\LIBRARY\InsertLog.cs:line 25
+------------------------------------------26-04-2024 11:15:22------------------------------------------
+BL Activity ==>  ActivityMethod  ==>  Started
+------------------------------------------26-04-2024 11:15:24------------------------------------------
+Activity Controller => AddActivity ==> Started
+------------------------------------------26-04-2024 11:15:24------------------------------------------
+BL Activity ==>  ActivityMethod  ==>  Started
+------------------------------------------26-04-2024 11:15:24------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 11:15:24------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 11:23:23------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 11:23:23------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 11:23:25------------------------------------------
+Activity Controller => AddActivity ==> Started
+------------------------------------------26-04-2024 11:23:25------------------------------------------
+BL Activity ==>  ActivityMethod  ==>  Started
+------------------------------------------26-04-2024 11:23:25------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 11:23:25------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 11:23:30------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 11:23:30------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 11:23:31------------------------------------------
+Activity Controller => AddActivity ==> Started
+------------------------------------------26-04-2024 11:23:31------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 11:23:31------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 11:23:31------------------------------------------
+System.IO.IOException: The process cannot access the file 'E:\Amit Pipaliya\Intern\Task\week 10\Event Management\Event Management\ErrorLog\ErrorLog_26-04-2024.txt' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append)
+   at LIBRARY.InsertLog.WriteErrrorLog(String exception) in E:\Amit Pipaliya\Intern\Task\week 10\Event Management\LIBRARY\InsertLog.cs:line 25==   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append)
+   at LIBRARY.InsertLog.WriteErrrorLog(String exception) in E:\Amit Pipaliya\Intern\Task\week 10\Event Management\LIBRARY\InsertLog.cs:line 25
+------------------------------------------26-04-2024 11:23:33------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 11:23:33------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 11:23:58------------------------------------------
+Activity Controller => AddActivity ==> Started
+------------------------------------------26-04-2024 11:23:58------------------------------------------
+BL Activity ==>  ActivityMethod  ==>  Started
+------------------------------------------26-04-2024 11:23:58------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 11:23:58------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 11:23:59------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 11:23:59------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 11:24:00------------------------------------------
+Activity Controller => AddActivity ==> Started
+------------------------------------------26-04-2024 11:24:00------------------------------------------
+BL Activity ==>  ActivityMethod  ==>  Started
+------------------------------------------26-04-2024 11:24:00------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 11:24:00------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 11:24:01------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 11:24:01------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 11:24:02------------------------------------------
+Activity Controller => AddActivity ==> Started
+------------------------------------------26-04-2024 11:24:02------------------------------------------
+BL Activity ==>  ActivityMethod  ==>  Started
+------------------------------------------26-04-2024 11:24:02------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 11:24:02------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 11:24:03------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 11:24:03------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 11:40:30------------------------------------------
+Admin Login BL  ==>  Admin Login  ==>  Started
+------------------------------------------26-04-2024 11:40:37------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 11:40:37------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 11:40:38------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 11:40:38------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 11:40:38------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 11:40:38------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 11:40:39------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 11:40:39------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 11:40:51------------------------------------------
+Admin Login BL  ==>  Admin Login  ==>  Started
+------------------------------------------26-04-2024 12:17:16------------------------------------------
+User Controller ==> Create User ==> Started
+------------------------------------------26-04-2024 12:17:26------------------------------------------
+User Controller ==> Create User ==> Started
+------------------------------------------26-04-2024 12:17:31------------------------------------------
+InsertUserBL  ==>  UserCreation  ==>  Started
+------------------------------------------26-04-2024 12:17:32------------------------------------------
+System.IO.IOException: The process cannot access the file 'E:\Amit Pipaliya\Intern\Task\week 10\Event Management\Event Management\ErrorLog\ErrorLog_26-04-2024.txt' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append)
+   at LIBRARY.InsertLog.WriteErrrorLog(String exception) in E:\Amit Pipaliya\Intern\Task\week 10\Event Management\LIBRARY\InsertLog.cs:line 25==   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append)
+   at LIBRARY.InsertLog.WriteErrrorLog(String exception) in E:\Amit Pipaliya\Intern\Task\week 10\Event Management\LIBRARY\InsertLog.cs:line 25
+------------------------------------------26-04-2024 12:17:32------------------------------------------
+InsertUserBL  ==>  UserCreation  ==>  Started
+------------------------------------------26-04-2024 12:17:33------------------------------------------
+System.IO.IOException: The process cannot access the file 'E:\Amit Pipaliya\Intern\Task\week 10\Event Management\Event Management\ErrorLog\ErrorLog_26-04-2024.txt' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append)
+   at LIBRARY.InsertLog.WriteErrrorLog(String exception) in E:\Amit Pipaliya\Intern\Task\week 10\Event Management\LIBRARY\InsertLog.cs:line 25==   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append)
+   at LIBRARY.InsertLog.WriteErrrorLog(String exception) in E:\Amit Pipaliya\Intern\Task\week 10\Event Management\LIBRARY\InsertLog.cs:line 25
+------------------------------------------26-04-2024 12:17:33------------------------------------------
+InsertUserBL  ==>  UserCreation  ==>  Started
+------------------------------------------26-04-2024 12:17:33------------------------------------------
+System.IO.IOException: The process cannot access the file 'E:\Amit Pipaliya\Intern\Task\week 10\Event Management\Event Management\ErrorLog\ErrorLog_26-04-2024.txt' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append)
+   at LIBRARY.InsertLog.WriteErrrorLog(String exception) in E:\Amit Pipaliya\Intern\Task\week 10\Event Management\LIBRARY\InsertLog.cs:line 25==   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append)
+   at LIBRARY.InsertLog.WriteErrrorLog(String exception) in E:\Amit Pipaliya\Intern\Task\week 10\Event Management\LIBRARY\InsertLog.cs:line 25
+------------------------------------------26-04-2024 12:17:33------------------------------------------
+InsertUserBL  ==>  UserCreation  ==>  Started
+------------------------------------------26-04-2024 12:17:33------------------------------------------
+System.IO.IOException: The process cannot access the file 'E:\Amit Pipaliya\Intern\Task\week 10\Event Management\Event Management\ErrorLog\ErrorLog_26-04-2024.txt' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append)
+   at LIBRARY.InsertLog.WriteErrrorLog(String exception) in E:\Amit Pipaliya\Intern\Task\week 10\Event Management\LIBRARY\InsertLog.cs:line 25==   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append)
+   at LIBRARY.InsertLog.WriteErrrorLog(String exception) in E:\Amit Pipaliya\Intern\Task\week 10\Event Management\LIBRARY\InsertLog.cs:line 25
+------------------------------------------26-04-2024 12:17:33------------------------------------------
+InsertUserBL  ==>  UserCreation  ==>  Started
+------------------------------------------26-04-2024 12:17:33------------------------------------------
+System.IO.IOException: The process cannot access the file 'E:\Amit Pipaliya\Intern\Task\week 10\Event Management\Event Management\ErrorLog\ErrorLog_26-04-2024.txt' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append)
+   at LIBRARY.InsertLog.WriteErrrorLog(String exception) in E:\Amit Pipaliya\Intern\Task\week 10\Event Management\LIBRARY\InsertLog.cs:line 25==   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append)
+   at LIBRARY.InsertLog.WriteErrrorLog(String exception) in E:\Amit Pipaliya\Intern\Task\week 10\Event Management\LIBRARY\InsertLog.cs:line 25
+------------------------------------------26-04-2024 12:17:42------------------------------------------
+User Controller ==> Create User ==> Started
+------------------------------------------26-04-2024 12:17:42------------------------------------------
+InsertUserBL  ==>  UserCreation  ==>  Started
+------------------------------------------26-04-2024 12:17:42------------------------------------------
+System.IO.IOException: The process cannot access the file 'E:\Amit Pipaliya\Intern\Task\week 10\Event Management\Event Management\ErrorLog\ErrorLog_26-04-2024.txt' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append)
+   at LIBRARY.InsertLog.WriteErrrorLog(String exception) in E:\Amit Pipaliya\Intern\Task\week 10\Event Management\LIBRARY\InsertLog.cs:line 25==   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append)
+   at LIBRARY.InsertLog.WriteErrrorLog(String exception) in E:\Amit Pipaliya\Intern\Task\week 10\Event Management\LIBRARY\InsertLog.cs:line 25
+------------------------------------------26-04-2024 12:17:43------------------------------------------
+InsertUserBL  ==>  UserCreation  ==>  Started
+------------------------------------------26-04-2024 12:17:52------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 12:17:52------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 12:18:13------------------------------------------
+User Controller ==> Create User ==> Started
+------------------------------------------26-04-2024 12:18:13------------------------------------------
+InsertUserBL  ==>  UserCreation  ==>  Started
+------------------------------------------26-04-2024 12:18:14------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 12:18:14------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 12:18:16------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 12:18:16------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 12:18:17------------------------------------------
+Activity Controller => AddActivity ==> Started
+------------------------------------------26-04-2024 12:18:17------------------------------------------
+BL Activity ==>  ActivityMethod  ==>  Started
+------------------------------------------26-04-2024 12:18:20------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 12:18:20------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 14:01:52------------------------------------------
+User Controller ==> Create User ==> Started
+------------------------------------------26-04-2024 14:01:52------------------------------------------
+InsertUserBL  ==>  UserCreation  ==>  Started
+------------------------------------------26-04-2024 14:01:57------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 14:01:57------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 14:02:01------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 14:02:01------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 14:02:01------------------------------------------
+Activity Controller => AddActivity ==> Started
+------------------------------------------26-04-2024 14:02:01------------------------------------------
+BL Activity ==>  ActivityMethod  ==>  Started
+------------------------------------------26-04-2024 14:02:07------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 14:02:07------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 14:02:09------------------------------------------
+Activity Controller => AddActivity ==> Started
+------------------------------------------26-04-2024 14:02:09------------------------------------------
+BL Activity ==>  ActivityMethod  ==>  Started
+------------------------------------------26-04-2024 14:02:09------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 14:02:09------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 14:02:12------------------------------------------
+Activity Controller => AddActivity ==> Started
+------------------------------------------26-04-2024 14:02:12------------------------------------------
+BL Activity ==>  ActivityMethod  ==>  Started
+------------------------------------------26-04-2024 14:02:13------------------------------------------
+System.IO.IOException: The process cannot access the file 'E:\Amit Pipaliya\Intern\Task\week 10\Event Management\Event Management\ErrorLog\ErrorLog_26-04-2024.txt' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append)
+   at LIBRARY.InsertLog.WriteErrrorLog(String exception) in E:\Amit Pipaliya\Intern\Task\week 10\Event Management\LIBRARY\InsertLog.cs:line 25==   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append)
+   at LIBRARY.InsertLog.WriteErrrorLog(String exception) in E:\Amit Pipaliya\Intern\Task\week 10\Event Management\LIBRARY\InsertLog.cs:line 25
+------------------------------------------26-04-2024 14:02:13------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 14:02:14------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 14:02:14------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 14:02:17------------------------------------------
+Activity Controller => AddActivity ==> Started
+------------------------------------------26-04-2024 14:02:17------------------------------------------
+BL Activity ==>  ActivityMethod  ==>  Started
+------------------------------------------26-04-2024 14:02:17------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 14:02:17------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 14:02:39------------------------------------------
+Activity Controller => AddActivity ==> Started
+------------------------------------------26-04-2024 14:02:39------------------------------------------
+BL Activity ==>  ActivityMethod  ==>  Started
+------------------------------------------26-04-2024 14:02:39------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 14:02:39------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 14:02:50------------------------------------------
+Activity Controller => AddActivity ==> Started
+------------------------------------------26-04-2024 14:02:50------------------------------------------
+BL Activity ==>  ActivityMethod  ==>  Started
+------------------------------------------26-04-2024 14:02:50------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 14:02:50------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 14:02:53------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 14:02:53------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 14:02:54------------------------------------------
+Activity Controller => AddActivity ==> Started
+------------------------------------------26-04-2024 14:02:54------------------------------------------
+BL Activity ==>  ActivityMethod  ==>  Started
+------------------------------------------26-04-2024 14:02:54------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 14:02:54------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 14:03:09------------------------------------------
+Activity Controller => AddActivity ==> Started
+------------------------------------------26-04-2024 14:03:09------------------------------------------
+BL Activity ==>  ActivityMethod  ==>  Started
+------------------------------------------26-04-2024 14:03:09------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 14:03:09------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 14:03:11------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 14:03:11------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 14:03:12------------------------------------------
+Activity Controller => AddActivity ==> Started
+------------------------------------------26-04-2024 14:03:12------------------------------------------
+BL Activity ==>  ActivityMethod  ==>  Started
+------------------------------------------26-04-2024 14:03:12------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 14:03:12------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 14:03:18------------------------------------------
+Activity Controller => AddActivity ==> Started
+------------------------------------------26-04-2024 14:03:18------------------------------------------
+BL Activity ==>  ActivityMethod  ==>  Started
+------------------------------------------26-04-2024 14:03:18------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 14:03:18------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 14:03:20------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 14:03:20------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 14:03:21------------------------------------------
+Activity Controller => AddActivity ==> Started
+------------------------------------------26-04-2024 14:03:21------------------------------------------
+BL Activity ==>  ActivityMethod  ==>  Started
+------------------------------------------26-04-2024 14:03:21------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 14:03:21------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 14:03:23------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 14:03:23------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 14:20:40------------------------------------------
+Admin Login BL  ==>  Admin Login  ==>  Started
+------------------------------------------26-04-2024 14:21:20------------------------------------------
+Admin Login BL  ==>  Admin Login  ==>  Started
+------------------------------------------26-04-2024 14:21:21------------------------------------------
+Admin Login BL  ==>  Admin Login  ==>  Started
+------------------------------------------26-04-2024 14:21:22------------------------------------------
+Admin Login BL  ==>  Admin Login  ==>  Started
+------------------------------------------26-04-2024 14:21:22------------------------------------------
+Admin Login BL  ==>  Admin Login  ==>  Started
+------------------------------------------26-04-2024 14:21:22------------------------------------------
+Admin Login BL  ==>  Admin Login  ==>  Started
+------------------------------------------26-04-2024 14:21:23------------------------------------------
+Admin Login BL  ==>  Admin Login  ==>  Started
+------------------------------------------26-04-2024 14:21:23------------------------------------------
+Admin Login BL  ==>  Admin Login  ==>  Started
+------------------------------------------26-04-2024 14:21:23------------------------------------------
+Admin Login BL  ==>  Admin Login  ==>  Started
+------------------------------------------26-04-2024 14:21:23------------------------------------------
+Admin Login BL  ==>  Admin Login  ==>  Started
+------------------------------------------26-04-2024 14:21:24------------------------------------------
+Admin Login BL  ==>  Admin Login  ==>  Started
+------------------------------------------26-04-2024 14:21:25------------------------------------------
+Admin Login BL  ==>  Admin Login  ==>  Started
+------------------------------------------26-04-2024 14:21:25------------------------------------------
+Admin Login BL  ==>  Admin Login  ==>  Started
+------------------------------------------26-04-2024 14:21:26------------------------------------------
+Admin Login BL  ==>  Admin Login  ==>  Started
+------------------------------------------26-04-2024 14:21:35------------------------------------------
+Admin Login BL  ==>  Admin Login  ==>  Started
+------------------------------------------26-04-2024 14:22:14------------------------------------------
+User Controller ==> Create User ==> Started
+------------------------------------------26-04-2024 14:22:14------------------------------------------
+InsertUserBL  ==>  UserCreation  ==>  Started
+------------------------------------------26-04-2024 14:22:16------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 14:22:16------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 14:22:17------------------------------------------
+Activity Controller => AddActivity ==> Started
+------------------------------------------26-04-2024 14:22:17------------------------------------------
+BL Activity ==>  ActivityMethod  ==>  Started
+------------------------------------------26-04-2024 14:22:17------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 14:22:17------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 14:22:20------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 14:22:20------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 14:22:21------------------------------------------
+Activity Controller => AddActivity ==> Started
+------------------------------------------26-04-2024 14:22:21------------------------------------------
+BL Activity ==>  ActivityMethod  ==>  Started
+------------------------------------------26-04-2024 14:22:21------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 14:22:21------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 14:22:24------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 14:22:24------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 14:22:27------------------------------------------
+Activity Controller => AddActivity ==> Started
+------------------------------------------26-04-2024 14:22:27------------------------------------------
+BL Activity ==>  ActivityMethod  ==>  Started
+------------------------------------------26-04-2024 14:22:27------------------------------------------
+System.IO.IOException: The process cannot access the file 'E:\Amit Pipaliya\Intern\Task\week 10\Event Management\Event Management\ErrorLog\ErrorLog_26-04-2024.txt' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append)
+   at LIBRARY.InsertLog.WriteErrrorLog(String exception) in E:\Amit Pipaliya\Intern\Task\week 10\Event Management\LIBRARY\InsertLog.cs:line 25==   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append)
+   at LIBRARY.InsertLog.WriteErrrorLog(String exception) in E:\Amit Pipaliya\Intern\Task\week 10\Event Management\LIBRARY\InsertLog.cs:line 25
+------------------------------------------26-04-2024 14:22:27------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 14:22:28------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 14:22:28------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 14:35:04------------------------------------------
+User Controller ==> Create User ==> Started
+------------------------------------------26-04-2024 14:35:04------------------------------------------
+InsertUserBL  ==>  UserCreation  ==>  Started
+------------------------------------------26-04-2024 14:35:23------------------------------------------
+User Controller ==> Create User ==> Started
+------------------------------------------26-04-2024 14:35:23------------------------------------------
+InsertUserBL  ==>  UserCreation  ==>  Started
+------------------------------------------26-04-2024 14:37:03------------------------------------------
+Admin Login BL  ==>  Admin Login  ==>  Started
+------------------------------------------26-04-2024 14:38:00------------------------------------------
+Admin Login BL  ==>  Admin Login  ==>  Started
+------------------------------------------26-04-2024 14:38:04------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 14:38:04------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 14:40:14------------------------------------------
+User Controller ==> Create User ==> Started
+------------------------------------------26-04-2024 14:40:14------------------------------------------
+InsertUserBL  ==>  UserCreation  ==>  Started
+------------------------------------------26-04-2024 14:40:33------------------------------------------
+User Controller ==> Create User ==> Started
+------------------------------------------26-04-2024 14:40:33------------------------------------------
+InsertUserBL  ==>  UserCreation  ==>  Started
+------------------------------------------26-04-2024 14:42:24------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 14:42:24------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 14:42:24------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 14:42:24------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 14:42:25------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 14:42:25------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 14:42:25------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 14:42:25------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 14:42:26------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 14:42:26------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 14:42:27------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 14:42:27------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 14:42:29------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 14:42:29------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 14:42:30------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 14:42:30------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 14:42:30------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 14:42:30------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 14:43:08------------------------------------------
+User Controller ==> Create User ==> Started
+------------------------------------------26-04-2024 14:43:08------------------------------------------
+InsertUserBL  ==>  UserCreation  ==>  Started
+------------------------------------------26-04-2024 14:45:32------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 14:45:32------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 14:45:35------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 14:45:35------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 14:45:35------------------------------------------
+Activity Controller => AddActivity ==> Started
+------------------------------------------26-04-2024 14:45:35------------------------------------------
+BL Activity ==>  ActivityMethod  ==>  Started
+------------------------------------------26-04-2024 14:45:47------------------------------------------
+User Controller ==> Create User ==> Started
+------------------------------------------26-04-2024 14:45:47------------------------------------------
+InsertUserBL  ==>  UserCreation  ==>  Started
+------------------------------------------26-04-2024 14:46:05------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 14:46:05------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 14:46:16------------------------------------------
+User Controller ==> Create User ==> Started
+------------------------------------------26-04-2024 14:46:16------------------------------------------
+InsertUserBL  ==>  UserCreation  ==>  Started
+------------------------------------------26-04-2024 14:46:33------------------------------------------
+User Controller ==> Create User ==> Started
+------------------------------------------26-04-2024 14:46:33------------------------------------------
+InsertUserBL  ==>  UserCreation  ==>  Started
+------------------------------------------26-04-2024 14:46:35------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 14:46:35------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 14:46:37------------------------------------------
+Activity Controller => AddActivity ==> Started
+------------------------------------------26-04-2024 14:46:37------------------------------------------
+BL Activity ==>  ActivityMethod  ==>  Started
+------------------------------------------26-04-2024 14:46:37------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 14:46:37------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 14:46:40------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 14:46:40------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 14:46:41------------------------------------------
+Activity Controller => AddActivity ==> Started
+------------------------------------------26-04-2024 14:46:41------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 14:46:41------------------------------------------
+BL Activity ==>  ActivityMethod  ==>  Started
+------------------------------------------26-04-2024 14:46:41------------------------------------------
+System.IO.IOException: The process cannot access the file 'E:\Amit Pipaliya\Intern\Task\week 10\Event Management\Event Management\ErrorLog\ErrorLog_26-04-2024.txt' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append)
+   at LIBRARY.InsertLog.WriteErrrorLog(String exception) in E:\Amit Pipaliya\Intern\Task\week 10\Event Management\LIBRARY\InsertLog.cs:line 25==   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append)
+   at LIBRARY.InsertLog.WriteErrrorLog(String exception) in E:\Amit Pipaliya\Intern\Task\week 10\Event Management\LIBRARY\InsertLog.cs:line 25
+------------------------------------------26-04-2024 14:46:44------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 14:46:44------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 14:46:45------------------------------------------
+Activity Controller => AddActivity ==> Started
+------------------------------------------26-04-2024 14:46:45------------------------------------------
+BL Activity ==>  ActivityMethod  ==>  Started
+------------------------------------------26-04-2024 14:46:45------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 14:46:45------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 14:46:49------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 14:46:49------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 14:46:50------------------------------------------
+Activity Controller => AddActivity ==> Started
+------------------------------------------26-04-2024 14:46:50------------------------------------------
+BL Activity ==>  ActivityMethod  ==>  Started
+------------------------------------------26-04-2024 14:46:50------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 14:46:50------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 14:46:57------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 14:46:57------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 14:58:12------------------------------------------
+Admin Login BL  ==>  Admin Login  ==>  Started
+------------------------------------------26-04-2024 14:58:16------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 14:58:16------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 14:58:16------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 14:58:16------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 14:58:16------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 14:58:16------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 14:58:40------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 14:58:40------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 14:58:42------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 14:58:42------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 14:58:43------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 14:58:43------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 14:58:43------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 14:58:43------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 14:58:45------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 14:58:45------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 14:58:47------------------------------------------
+Activity Controller => AddActivity ==> Started
+------------------------------------------26-04-2024 14:58:47------------------------------------------
+BL Activity ==>  ActivityMethod  ==>  Started
+------------------------------------------26-04-2024 14:58:48------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 14:58:48------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 14:58:49------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 14:58:49------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 14:58:50------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 14:58:50------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 14:58:52------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 14:58:52------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 14:58:52------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 14:58:52------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 14:58:52------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 14:58:52------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 15:31:03------------------------------------------
+User Controller ==> Create User ==> Started
+------------------------------------------26-04-2024 15:31:03------------------------------------------
+InsertUserBL  ==>  UserCreation  ==>  Started
+------------------------------------------26-04-2024 15:31:06------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 15:31:06------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 15:31:10------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 15:31:10------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 15:31:17------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 15:31:17------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 15:31:18------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 15:31:18------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 15:31:19------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 15:31:19------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 15:31:20------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 15:31:20------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 15:31:21------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 15:31:21------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 15:31:22------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 15:31:22------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 15:31:23------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 15:31:23------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 15:31:24------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 15:31:24------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 15:31:25------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 15:31:25------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 15:31:25------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 15:31:25------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 15:31:26------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 15:31:26------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 15:31:27------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 15:31:27------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 15:31:28------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 15:31:28------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 15:31:28------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 15:31:28------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 15:31:29------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 15:31:29------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 15:31:32------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 15:31:32------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 15:31:55------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 15:31:55------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 15:31:56------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 15:31:56------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 15:31:56------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 15:31:56------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 15:31:56------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 15:31:56------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 15:31:57------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 15:31:57------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 15:31:58------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 15:31:58------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 15:31:59------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 15:31:59------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 15:31:59------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 15:31:59------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 15:38:35------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 15:38:35------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 15:38:37------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 15:38:37------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 15:38:51------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 15:38:51------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 15:38:52------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 15:38:52------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 15:38:52------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 15:38:52------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 15:38:53------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 15:38:53------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 15:38:53------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 15:38:53------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 15:38:54------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 15:38:54------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 15:38:54------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 15:38:54------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 15:38:55------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 15:38:55------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 15:38:55------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 15:38:55------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 15:38:55------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 15:38:55------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 15:38:56------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 15:38:56------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 15:39:38------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 15:39:38------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 15:39:39------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 15:39:39------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 15:39:40------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 15:39:40------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 15:39:40------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 15:39:40------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 15:39:41------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 15:39:41------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 15:40:18------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 15:40:18------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 15:40:19------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 15:40:19------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 15:40:20------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 15:40:20------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 15:40:21------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 15:40:21------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 15:40:21------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 15:40:21------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 15:40:21------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 15:40:21------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 15:40:30------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 15:40:30------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 15:42:38------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 15:42:38------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 15:43:04------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 15:43:04------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 15:43:35------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 15:43:35------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 15:43:39------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 15:43:39------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 15:43:39------------------------------------------
+Activity Controller => AddActivity ==> Started
+------------------------------------------26-04-2024 15:43:39------------------------------------------
+BL Activity ==>  ActivityMethod  ==>  Started
+------------------------------------------26-04-2024 15:43:41------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 15:43:41------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 15:43:43------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 15:43:43------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 15:43:44------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 15:43:44------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 15:43:45------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 15:43:45------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 15:43:46------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 15:43:46------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 15:43:46------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 15:43:46------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 15:43:46------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 15:43:46------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 15:44:36------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 15:44:36------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 15:44:36------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 15:44:36------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 15:44:38------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 15:44:38------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 15:44:38------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 15:44:38------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 15:44:39------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 15:44:39------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 15:44:40------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 15:44:40------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 15:44:40------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 15:44:40------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 15:44:41------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 15:44:41------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 15:44:41------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 15:44:41------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 15:44:42------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 15:44:42------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 15:44:42------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 15:44:42------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 15:44:42------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 15:44:42------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 15:44:43------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 15:44:43------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 15:44:43------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 15:44:43------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 15:44:43------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 15:44:43------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 15:44:44------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 15:44:44------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 15:44:44------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 15:44:44------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 15:44:44------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 15:44:44------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 15:54:07------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 15:54:07------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 15:54:11------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 15:54:11------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 15:54:15------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 15:54:15------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 15:54:16------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 15:54:16------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 15:54:18------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 15:54:18------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 15:54:20------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 15:54:20------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 15:56:14------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 15:56:14------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 15:56:15------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 15:56:15------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 15:56:17------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 15:56:17------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 15:56:19------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 15:56:19------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 15:56:22------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 15:56:22------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 15:56:49------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 15:56:49------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 15:56:51------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 15:56:51------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 15:56:57------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 15:56:57------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 15:56:59------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 15:56:59------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 15:57:00------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 15:57:00------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 15:57:35------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 15:57:35------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 15:57:37------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 15:57:37------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 15:58:08------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 15:58:08------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 15:58:30------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 15:58:30------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:01:26------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:01:26------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:01:27------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:01:27------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:01:28------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:01:28------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:01:29------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:01:29------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:01:41------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:01:41------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:01:44------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:01:44------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:01:45------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:01:45------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:01:45------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:01:45------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:01:45------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:01:45------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:02:10------------------------------------------
+Admin Login BL  ==>  Admin Login  ==>  Started
+------------------------------------------26-04-2024 16:02:32------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:02:32------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:02:35------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:02:35------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:02:36------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:02:36------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:02:36------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:02:36------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:02:41------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:02:41------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:02:43------------------------------------------
+Activity Controller => AddActivity ==> Started
+------------------------------------------26-04-2024 16:02:43------------------------------------------
+BL Activity ==>  ActivityMethod  ==>  Started
+------------------------------------------26-04-2024 16:02:44------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:02:44------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:02:46------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:02:46------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:02:47------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:02:47------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:02:49------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:02:49------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:02:58------------------------------------------
+User Controller ==> Create User ==> Started
+------------------------------------------26-04-2024 16:02:58------------------------------------------
+InsertUserBL  ==>  UserCreation  ==>  Started
+------------------------------------------26-04-2024 16:03:00------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:03:00------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:03:02------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:03:02------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:03:03------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:03:03------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:03:07------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:03:07------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:03:59------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:03:59------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:04:04------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:04:04------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:04:04------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:04:04------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:04:09------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:04:09------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:04:11------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:04:11------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:04:18------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:04:18------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:04:22------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:04:22------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:04:34------------------------------------------
+Admin Login BL  ==>  Admin Login  ==>  Started
+------------------------------------------26-04-2024 16:04:54------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:04:54------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:04:56------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:04:56------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:04:58------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:04:58------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:04:59------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:04:59------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:05:11------------------------------------------
+User Controller ==> Create User ==> Started
+------------------------------------------26-04-2024 16:05:11------------------------------------------
+InsertUserBL  ==>  UserCreation  ==>  Started
+------------------------------------------26-04-2024 16:05:13------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:05:13------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:05:16------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:05:16------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:05:18------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:05:18------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:05:28------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:05:28------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:05:33------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:05:33------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:11:17------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:11:17------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:11:18------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:11:18------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:13:47------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:13:47------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:13:49------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:13:49------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:13:50------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:13:50------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:13:50------------------------------------------
+Activity Controller => AddActivity ==> Started
+------------------------------------------26-04-2024 16:13:50------------------------------------------
+BL Activity ==>  ActivityMethod  ==>  Started
+------------------------------------------26-04-2024 16:13:53------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:13:53------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:13:54------------------------------------------
+Activity Controller => AddActivity ==> Started
+------------------------------------------26-04-2024 16:13:54------------------------------------------
+BL Activity ==>  ActivityMethod  ==>  Started
+------------------------------------------26-04-2024 16:13:54------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:13:54------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:13:56------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:13:56------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:13:57------------------------------------------
+Activity Controller => AddActivity ==> Started
+------------------------------------------26-04-2024 16:13:57------------------------------------------
+BL Activity ==>  ActivityMethod  ==>  Started
+------------------------------------------26-04-2024 16:13:57------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:13:57------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:13:59------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:13:59------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:14:01------------------------------------------
+Activity Controller => AddActivity ==> Started
+------------------------------------------26-04-2024 16:14:01------------------------------------------
+BL Activity ==>  ActivityMethod  ==>  Started
+------------------------------------------26-04-2024 16:14:01------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:14:01------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:14:16------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:14:16------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:14:19------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:14:19------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:14:23------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:14:23------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:14:25------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:14:25------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:14:27------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:14:27------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:14:30------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:14:30------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:14:30------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:14:30------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:20:34------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:20:34------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:20:35------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:20:35------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:20:36------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:20:36------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:20:36------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:20:36------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:20:37------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:20:37------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:20:51------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:20:51------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:20:53------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:20:53------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:20:54------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:20:54------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:20:57------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:20:57------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:21:55------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:21:55------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:21:55------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:21:55------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:22:26------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:22:26------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:22:27------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:22:27------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:22:27------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:22:27------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:26:17------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:26:17------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:26:17------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:26:17------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:26:18------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:26:18------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:26:19------------------------------------------
+Activity Controller => AddActivity ==> Started
+------------------------------------------26-04-2024 16:26:19------------------------------------------
+BL Activity ==>  ActivityMethod  ==>  Started
+------------------------------------------26-04-2024 16:26:19------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:26:19------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:26:21------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:26:21------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:26:22------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:26:22------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:35:01------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:35:01------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:35:02------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:35:02------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:35:02------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:35:02------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:35:03------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:35:03------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:35:03------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:35:03------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:35:04------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:35:04------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:35:05------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:35:05------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:35:27------------------------------------------
+Admin Login BL  ==>  Admin Login  ==>  Started
+------------------------------------------26-04-2024 16:37:30------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:37:30------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:37:30------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:37:30------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:37:31------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:37:31------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:38:11------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:38:11------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:38:15------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:38:15------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:38:15------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:38:15------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:38:16------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:38:16------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:38:16------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:38:16------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:38:16------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:38:16------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:38:17------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:38:17------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:38:18------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:38:18------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:38:18------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:38:18------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:38:27------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:38:27------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:38:35------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:38:35------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:38:36------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:38:36------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:38:38------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:38:38------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:38:38------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:38:38------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:38:39------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:38:39------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:38:48------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:38:48------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:38:53------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:38:53------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:38:54------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:38:54------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:38:54------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:38:54------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:38:54------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:38:54------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:38:55------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:38:55------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:38:55------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:38:55------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:38:56------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:38:56------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:38:56------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:38:56------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:38:57------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:38:57------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:38:57------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:38:57------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:38:57------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:38:57------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:38:59------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:38:59------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:38:59------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:38:59------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:39:00------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:39:00------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:39:00------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:39:00------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:39:00------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:39:00------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:39:03------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:39:03------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:39:04------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:39:04------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:39:04------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:39:04------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:39:06------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:39:06------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:39:06------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:39:06------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:39:07------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:39:07------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:39:07------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:39:07------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:39:54------------------------------------------
+Admin Login BL  ==>  Admin Login  ==>  Started
+------------------------------------------26-04-2024 16:39:58------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:39:58------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:40:00------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:40:00------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:40:00------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:40:00------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:40:01------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:40:01------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:42:15------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:42:15------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:42:16------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:42:16------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:42:16------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:42:16------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:42:17------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:42:17------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:42:18------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:42:18------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:42:18------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:42:18------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:42:18------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:42:18------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:42:19------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:42:19------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:42:19------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:42:19------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:42:27------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:42:27------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:42:27------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:42:27------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:42:28------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:42:28------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:42:40------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:42:40------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:45:39------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:45:39------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:45:41------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:45:41------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:45:41------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:45:41------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:45:42------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:45:42------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:45:42------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:45:42------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:46:02------------------------------------------
+Admin Login BL  ==>  Admin Login  ==>  Started
+------------------------------------------26-04-2024 16:46:06------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:46:06------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:47:32------------------------------------------
+User Controller ==> Create User ==> Started
+------------------------------------------26-04-2024 16:47:32------------------------------------------
+InsertUserBL  ==>  UserCreation  ==>  Started
+------------------------------------------26-04-2024 16:47:37------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:47:37------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:47:37------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:47:37------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:47:38------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:47:38------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:47:39------------------------------------------
+Activity Controller => AddActivity ==> Started
+------------------------------------------26-04-2024 16:47:39------------------------------------------
+BL Activity ==>  ActivityMethod  ==>  Started
+------------------------------------------26-04-2024 16:47:39------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:47:39------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:47:56------------------------------------------
+Admin Login BL  ==>  Admin Login  ==>  Started
+------------------------------------------26-04-2024 16:47:59------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:47:59------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 16:52:37------------------------------------------
+Admin Login BL  ==>  Admin Login  ==>  Started
+------------------------------------------26-04-2024 16:52:41------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 16:52:41------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 17:30:53------------------------------------------
+Admin Login BL  ==>  Admin Login  ==>  Started
+------------------------------------------26-04-2024 17:30:56------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 17:30:56------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 17:30:58------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 17:30:58------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 17:30:58------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 17:30:58------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 17:30:59------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 17:30:59------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 17:31:01------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 17:31:01------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 17:31:03------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 17:31:03------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 17:31:03------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 17:31:03------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 17:31:04------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 17:31:04------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 17:31:05------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 17:31:05------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 17:31:05------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 17:31:05------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 17:31:06------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 17:31:06------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 17:31:07------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 17:31:07------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 17:31:46------------------------------------------
+User Controller ==> Create User ==> Started
+------------------------------------------26-04-2024 17:31:46------------------------------------------
+InsertUserBL  ==>  UserCreation  ==>  Started
+------------------------------------------26-04-2024 17:31:52------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 17:31:52------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 17:31:52------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 17:31:52------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 17:31:53------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 17:31:53------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 17:31:54------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 17:31:54------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 17:31:56------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 17:31:56------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 17:31:57------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 17:31:57------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 17:31:58------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 17:31:58------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 17:32:00------------------------------------------
+Activity Controller => AddActivity ==> Started
+------------------------------------------26-04-2024 17:32:00------------------------------------------
+BL Activity ==>  ActivityMethod  ==>  Started
+------------------------------------------26-04-2024 17:32:00------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 17:32:00------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 17:32:02------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 17:32:02------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 17:32:03------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 17:32:03------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 17:32:05------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 17:32:05------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 17:32:06------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 17:32:06------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 17:32:06------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 17:32:06------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 17:32:07------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 17:32:07------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 18:25:53------------------------------------------
+Admin Login BL  ==>  Admin Login  ==>  Started
+------------------------------------------26-04-2024 18:25:58------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 18:25:58------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 18:25:59------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 18:25:59------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 18:25:59------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 18:25:59------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 18:26:00------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 18:26:00------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 18:26:01------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 18:26:01------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 18:32:44------------------------------------------
+Admin Login BL  ==>  Admin Login  ==>  Started
+------------------------------------------26-04-2024 18:32:51------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 18:32:51------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 18:32:58------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 18:32:58------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 18:32:58------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 18:32:58------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 18:32:59------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 18:32:59------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 18:32:59------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 18:32:59------------------------------------------
+BL Event ==>  EventMethod  ==>  Started
+------------------------------------------26-04-2024 18:33:00------------------------------------------
+Event Controller ==> AddEvent ==> Started
+------------------------------------------26-04-2024 18:33:00------------------------------------------
+BL Event ==>  EventMethod  ==>  Started

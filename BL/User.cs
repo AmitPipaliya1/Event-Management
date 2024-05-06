@@ -23,6 +23,9 @@ namespace BL
             DataSet ds = new DataSet();
             SqlDataProvider objSDP = new SqlDataProvider();
             string query = "SP_User";
+            if (UserEntity.FLAG == "UserRegister" || UserEntity.FLAG == "UserLogin") {
+              UserEntity.Password = PswdEncryptDecrypt.EncodePasswordToBase64(UserEntity.Password);          
+            }
             try
             {
                 string Con_str = Connection.ConnectionString();
@@ -44,8 +47,8 @@ namespace BL
                     objResponsemessage.Message = Convert.ToString(ds.Tables[0].Rows[0]["MESSAGE"]);
                 }
                 else if (UserEntity.FLAG == "UserLogin" && ds?.Tables.Count > 0 && ds.Tables[0].Rows.Count > 0)
-                {
-                    // objResponsemessage.ArrayOfResponse = bl.ListConvertDataTable<UserModel>(ds.Tables[0]);
+                {                    
+                    //objResponsemessage.ArrayOfResponse = bl.ListConvertDataTable<UserModel>(ds.Tables[0]);
                     objResponsemessage.ID = Convert.ToInt32(ds.Tables[0].Rows[0]["ID"]);
                     objResponsemessage.Message = Convert.ToString(ds.Tables[0].Rows[0]["MESSAGE"]);
                 }
