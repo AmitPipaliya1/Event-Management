@@ -23,7 +23,7 @@ namespace BL
 
             DataSet ds = new DataSet();
             SqlDataProvider objSDP = new SqlDataProvider();
-
+                
 
             //convert base64 string into image and save into storage and return path
             string path = AppDomain.CurrentDomain.BaseDirectory + "image\\img_" + DateTime.Now.ToString().Replace(':', '-') + ".jpg";
@@ -118,7 +118,8 @@ namespace BL
             }
             catch (Exception ex)
             {
-                objResponsemessage.Message = "500|Exception Occurred";
+                objResponsemessage.Message = "Exception Occurred";
+                objResponsemessage.ID = 500;
                 InsertLog.WriteErrrorLog("BL Event ==>  EventMethod  =>  Exception" + ex.Message + ex.StackTrace);
             }
             return objResponsemessage;

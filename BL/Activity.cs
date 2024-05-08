@@ -61,7 +61,8 @@ namespace BL
             }
             catch (Exception ex)
             {
-                objResponsemessage.Message = "500|Exception Occurred";
+                objResponsemessage.Message = "Exception Occurred";
+                objResponsemessage.ID = 500;
                 InsertLog.WriteErrrorLog("BL Event ==>  EventMethod  =>  Exception" + ex.Message + ex.StackTrace);
             }
             return objResponsemessage;

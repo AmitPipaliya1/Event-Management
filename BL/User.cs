@@ -54,12 +54,14 @@ namespace BL
                 }
                 else if (ds?.Tables.Count > 0 && ds.Tables[0].Rows.Count == 0)
                 {
-                    objResponsemessage.Message = "400|No Data Found";
+                    objResponsemessage.Message = "No Data Found";
+                    objResponsemessage.ID = 400;
                 }
             }
             catch (Exception ex)
             {
-                objResponsemessage.Message = "500|Exception Occurred";
+                objResponsemessage.Message = "Exception Occurred";
+                objResponsemessage.ID = 500;
                 InsertLog.WriteErrrorLog("InsertUserBL  =>  UserCreation  =>  Exception" + ex.Message + ex.StackTrace);
             }
             return objResponsemessage;
